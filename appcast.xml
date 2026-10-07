@@ -3,6 +3,19 @@
     <channel>
         <title>AgentDock</title>
         <item>
+            <title>0.4.5</title>
+            <pubDate>Thu, 08 Oct 2026 00:28:00 +0300</pubDate>
+            <link>https://github.com/tvidenov/AgentDock-releases/releases</link>
+            <sparkle:version>18</sparkle:version>
+            <sparkle:shortVersionString>0.4.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p><strong>Agents outside cmux.</strong> AgentDock now also shows the agents you run elsewhere:</p>
+<ul><li><strong>Codex app and Codex CLI:</strong> threads from the Codex app (in ChatGPT) and the Codex CLI in any terminal appear on the strip with their names, turn timers and questions. Nothing to install; turn it off in Settings › Agents outside cmux.</li><li><strong>Claude Code anywhere:</strong> turn on Settings › Agents outside cmux › Claude Code, and sessions in any terminal, the Claude app and your editor show up too. This adds a small hook to <code>~/.claude/settings.json</code> (backed up first); turning it off removes it.</li><li>Clicking one takes you there: the right iTerm or Terminal tab, tmux pane, or the app it runs in. The Inbox lists them too; answering them from AgentDock comes in a later update (for now ↩ opens them).</li></ul>
+<p>Also faster: reading long Codex sessions no longer slows down on very large log lines.</p>
+]]></description>
+            <enclosure url="https://github.com/tvidenov/AgentDock-releases/releases/download/v0.4.5/AgentDock-0.4.5.dmg" length="4407417" type="application/octet-stream" sparkle:edSignature="ni6fj6PbTbXrAYhdoDfnsucM87cJ9QlUEUXeE4F49JIDvIL7mBJahgMezrApxyBKjbyjCAFRPegNNLBduUXKAw=="/>
+        </item>
+        <item>
             <title>0.4.4</title>
             <pubDate>Wed, 07 Oct 2026 23:10:56 +0300</pubDate>
             <link>https://github.com/tvidenov/AgentDock-releases/releases</link>
@@ -29,18 +42,6 @@
 <ul><li><strong>Codex questions:</strong> when Codex asks something while it keeps working, its dot turns amber and the question appears in the Inbox. Answer with 1–9, like Claude's questions.</li><li><strong>Settings (⌘,)</strong> with a live preview: choose what the hover card shows and when idle agents fold away.</li><li><strong>A richer, compact hover card:</strong> model, live turn timers, optional tokens and today's usage. It fits its content.</li></ul>
 ]]></description>
             <enclosure url="https://github.com/tvidenov/AgentDock-releases/releases/download/v0.4.3/AgentDock-0.4.3.dmg" length="3989654" type="application/octet-stream" sparkle:edSignature="KK1gWralNz6RkIw8VgYKIHZ/UmQkIKJyJ2HRnvHnjCngjZ+sznrsXyhAGqrbuTorXJnpeL4jD+y7itftzvOzBQ=="/>
-        </item>
-        <item>
-            <title>0.4.2</title>
-            <pubDate>Wed, 07 Oct 2026 22:44:07 +0300</pubDate>
-            <link>https://github.com/tvidenov/AgentDock-releases/releases</link>
-            <sparkle:version>11</sparkle:version>
-            <sparkle:shortVersionString>0.4.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<p><strong>Codex questions.</strong> When Codex asks something while it keeps working, its dot turns amber and the question appears in the Inbox. Answer it with 1–9, just like Claude's questions.</p>
-<ul><li><strong>Settings (⌘,)</strong> with a live preview: choose what the hover card shows (model, turn timer, tokens, today's usage) and when idle agents fold away.</li><li><strong>A richer hover card:</strong> model, live turn timers, tokens and context, and a Today chart of Claude and Codex usage. Tokens and usage are off by default.</li><li><strong>A compact card:</strong> it now fits its content instead of a fixed width.</li><li><strong>Smarter titles:</strong> Codex's temporary "Action Required" title no longer replaces the real one.</li><li><strong>Lighter:</strong> session files are read only while something on screen uses them.</li></ul>
-]]></description>
-            <enclosure url="https://github.com/tvidenov/AgentDock-releases/releases/download/v0.4.2/AgentDock-0.4.2.dmg" length="3982144" type="application/octet-stream" sparkle:edSignature="rxy3bk5vUEs3FBpUoAIgzdrWR/kUyX/GnAPQn/khHGqzKfjiYVH8JE5hOTniEkoiT3DVxQwKFk42FMPLsKs5Ag=="/>
         </item>
     </channel>
 </rss>
