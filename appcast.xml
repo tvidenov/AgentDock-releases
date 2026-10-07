@@ -3,6 +3,20 @@
     <channel>
         <title>AgentDock</title>
         <item>
+            <title>0.4.4</title>
+            <pubDate>Wed, 07 Oct 2026 23:10:56 +0300</pubDate>
+            <link>https://github.com/tvidenov/AgentDock-releases/releases</link>
+            <sparkle:version>16</sparkle:version>
+            <sparkle:shortVersionString>0.4.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p><strong>A welcome tour.</strong> AgentDock now introduces itself: it checks your cmux connection live (and tells you exactly what to change if cmux won't let it in), explains the dots, the Inbox and ⌥⌥, and lets you pick a look. Reopen it any time from the menu bar › Welcome Tour…</p>
+<p><strong>Make the panels yours (Settings › Look):</strong></p>
+<ul><li><strong>Appearance:</strong> light or dark panels, whatever your system uses.</li><li><strong>Background:</strong> from clear glass to fully solid, for a calmer, more readable card.</li><li><strong>Rows:</strong> Tiles, a tidy List, or Compact single lines.</li></ul>
+<p>Also: details now line up under each agent's name.</p>
+]]></description>
+            <enclosure url="https://github.com/tvidenov/AgentDock-releases/releases/download/v0.4.4/AgentDock-0.4.4.dmg" length="4157301" type="application/octet-stream" sparkle:edSignature="nhOcHJfGvkeYSBrZsa4yOCTnScYceJ++AQ5j/JMOk05qSLJt98aN96pndS5pCz3bx1xNa2JSLtEWrXIlFiTPCg=="/>
+        </item>
+        <item>
             <title>0.4.3</title>
             <pubDate>Wed, 07 Oct 2026 22:53:54 +0300</pubDate>
             <link>https://github.com/tvidenov/AgentDock-releases/releases</link>
@@ -27,20 +41,6 @@
 <ul><li><strong>Settings (⌘,)</strong> with a live preview: choose what the hover card shows (model, turn timer, tokens, today's usage) and when idle agents fold away.</li><li><strong>A richer hover card:</strong> model, live turn timers, tokens and context, and a Today chart of Claude and Codex usage. Tokens and usage are off by default.</li><li><strong>A compact card:</strong> it now fits its content instead of a fixed width.</li><li><strong>Smarter titles:</strong> Codex's temporary "Action Required" title no longer replaces the real one.</li><li><strong>Lighter:</strong> session files are read only while something on screen uses them.</li></ul>
 ]]></description>
             <enclosure url="https://github.com/tvidenov/AgentDock-releases/releases/download/v0.4.2/AgentDock-0.4.2.dmg" length="3982144" type="application/octet-stream" sparkle:edSignature="rxy3bk5vUEs3FBpUoAIgzdrWR/kUyX/GnAPQn/khHGqzKfjiYVH8JE5hOTniEkoiT3DVxQwKFk42FMPLsKs5Ag=="/>
-        </item>
-        <item>
-            <title>0.4.1</title>
-            <pubDate>Wed, 07 Oct 2026 17:41:28 +0300</pubDate>
-            <link>https://github.com/tvidenov/AgentDock-releases/releases</link>
-            <sparkle:version>6</sparkle:version>
-            <sparkle:shortVersionString>0.4.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<p><strong>AgentDock now updates itself.</strong> This is the first public build: future versions arrive through Check for Updates… in the menu, or the daily background check.</p>
-<p>AgentDock is a menu-bar companion for the coding agents you run in cmux:</p>
-<ul><li><strong>Status strip:</strong> a dot per agent on the edge of your screen. Blue is working, amber needs you, green is done. Agents idle for 15 minutes or more fold into "+N".</li><li><strong>Inbox (⌃⌥I):</strong> questions, permission prompts and finished work in one list. Answer with 1–9, with a 2-second undo, or press <strong>R</strong> to reply to a finished agent.</li><li><strong>Router (⌥⌥):</strong> type a request and see which agent gets it before you send. Pick with ↑/↓ or a <code>name:</code> prefix, or start one with <code>new:</code>.</li></ul>
-<p>Requires macOS 26 and cmux, with Settings › Automation › Socket Control Mode set to <strong>Password</strong>.</p>
-]]></description>
-            <enclosure url="https://github.com/tvidenov/AgentDock-releases/releases/download/v0.4.1/AgentDock-0.4.1.dmg" length="3718887" type="application/octet-stream" sparkle:edSignature="A+mvCN6jd3cmsn2mioph4kHmzVhELYopbKpzF+1U32aGbrifkmy+P2B8Dp4rJg6kiYNuaj2EAprC9kGnB/7cBw=="/>
         </item>
     </channel>
 </rss>
