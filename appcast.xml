@@ -3,6 +3,18 @@
     <channel>
         <title>AgentDock</title>
         <item>
+            <title>0.5.0</title>
+            <pubDate>Thu, 08 Oct 2026 01:22:59 +0300</pubDate>
+            <link>https://github.com/tvidenov/AgentDock-releases/releases</link>
+            <sparkle:version>26</sparkle:version>
+            <sparkle:shortVersionString>0.5.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p><strong>Answer your agents wherever they run.</strong> This update finishes AgentDock's roadmap:</p>
+<ul><li><strong>Answer Claude Code anywhere.</strong> With Settings › Agents outside cmux › *Know when Claude Code needs you* on, Claude's questions and permission prompts show up in the Inbox and are answered from there (allow, deny, or pick an answer), in any terminal and in the Claude app. Claude's own dialog stays up too; whichever you answer first wins.</li><li><strong>Type into more terminals.</strong> Answers and replies now also reach agents in <strong>tmux, iTerm, WezTerm and kitty</strong>, not only cmux. (macOS asks once before AgentDock may control iTerm.)</li><li><strong>herdr.</strong> Every agent herdr recognises in its panes (Claude, Codex, Gemini, OpenCode…) shows up and is answered through herdr.</li><li><strong>Recaps and next steps.</strong> Finished cards get a one-line recap and three follow-ups to send with ⌘1–⌘3, written on this Mac by Apple Intelligence.</li><li><strong>From your iPhone.</strong> Settings › iPhone serves a page your iPhone opens on the same Wi-Fi: scan the QR code, add it to the Home Screen, and answer from the couch. Off until you turn it on.</li><li><strong>Codex approvals.</strong> An optional Codex hook marks approvals as needing you.</li></ul>
+]]></description>
+            <enclosure url="https://github.com/tvidenov/AgentDock-releases/releases/download/v0.5.0/AgentDock-0.5.0.dmg" length="4749769" type="application/octet-stream" sparkle:edSignature="2m6Urk55eQ2ZIi/dl22CEWyYQQyoMqaGyo7oCrAlb+Rbvy1GVkpIO7D67qp6z/HTKxu120SlepC0edeP0hVnDA=="/>
+        </item>
+        <item>
             <title>0.4.6</title>
             <pubDate>Thu, 08 Oct 2026 00:33:00 +0300</pubDate>
             <link>https://github.com/tvidenov/AgentDock-releases/releases</link>
@@ -26,20 +38,6 @@
 <p>Also faster: reading long Codex sessions no longer slows down on very large log lines.</p>
 ]]></description>
             <enclosure url="https://github.com/tvidenov/AgentDock-releases/releases/download/v0.4.5/AgentDock-0.4.5.dmg" length="4407417" type="application/octet-stream" sparkle:edSignature="ni6fj6PbTbXrAYhdoDfnsucM87cJ9QlUEUXeE4F49JIDvIL7mBJahgMezrApxyBKjbyjCAFRPegNNLBduUXKAw=="/>
-        </item>
-        <item>
-            <title>0.4.4</title>
-            <pubDate>Wed, 07 Oct 2026 23:10:56 +0300</pubDate>
-            <link>https://github.com/tvidenov/AgentDock-releases/releases</link>
-            <sparkle:version>16</sparkle:version>
-            <sparkle:shortVersionString>0.4.4</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<p><strong>A welcome tour.</strong> AgentDock now introduces itself: it checks your cmux connection live (and tells you exactly what to change if cmux won't let it in), explains the dots, the Inbox and ⌥⌥, and lets you pick a look. Reopen it any time from the menu bar › Welcome Tour…</p>
-<p><strong>Make the panels yours (Settings › Look):</strong></p>
-<ul><li><strong>Appearance:</strong> light or dark panels, whatever your system uses.</li><li><strong>Background:</strong> from clear glass to fully solid, for a calmer, more readable card.</li><li><strong>Rows:</strong> Tiles, a tidy List, or Compact single lines.</li></ul>
-<p>Also: details now line up under each agent's name.</p>
-]]></description>
-            <enclosure url="https://github.com/tvidenov/AgentDock-releases/releases/download/v0.4.4/AgentDock-0.4.4.dmg" length="4157301" type="application/octet-stream" sparkle:edSignature="nhOcHJfGvkeYSBrZsa4yOCTnScYceJ++AQ5j/JMOk05qSLJt98aN96pndS5pCz3bx1xNa2JSLtEWrXIlFiTPCg=="/>
         </item>
     </channel>
 </rss>
