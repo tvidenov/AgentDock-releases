@@ -3,6 +3,18 @@
     <channel>
         <title>AgentDock</title>
         <item>
+            <title>0.4.2</title>
+            <pubDate>Wed, 07 Oct 2026 22:44:07 +0300</pubDate>
+            <link>https://github.com/tvidenov/AgentDock-releases/releases</link>
+            <sparkle:version>11</sparkle:version>
+            <sparkle:shortVersionString>0.4.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p><strong>Codex questions.</strong> When Codex asks something while it keeps working, its dot turns amber and the question appears in the Inbox. Answer it with 1–9, just like Claude's questions.</p>
+<ul><li><strong>Settings (⌘,)</strong> with a live preview: choose what the hover card shows (model, turn timer, tokens, today's usage) and when idle agents fold away.</li><li><strong>A richer hover card:</strong> model, live turn timers, tokens and context, and a Today chart of Claude and Codex usage. Tokens and usage are off by default.</li><li><strong>A compact card:</strong> it now fits its content instead of a fixed width.</li><li><strong>Smarter titles:</strong> Codex's temporary "Action Required" title no longer replaces the real one.</li><li><strong>Lighter:</strong> session files are read only while something on screen uses them.</li></ul>
+]]></description>
+            <enclosure url="https://github.com/tvidenov/AgentDock-releases/releases/download/v0.4.2/AgentDock-0.4.2.dmg" length="3982144" type="application/octet-stream" sparkle:edSignature="rxy3bk5vUEs3FBpUoAIgzdrWR/kUyX/GnAPQn/khHGqzKfjiYVH8JE5hOTniEkoiT3DVxQwKFk42FMPLsKs5Ag=="/>
+        </item>
+        <item>
             <title>0.4.1</title>
             <pubDate>Wed, 07 Oct 2026 17:41:28 +0300</pubDate>
             <link>https://github.com/tvidenov/AgentDock-releases/releases</link>
