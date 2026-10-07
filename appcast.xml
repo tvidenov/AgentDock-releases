@@ -3,6 +3,20 @@
     <channel>
         <title>AgentDock</title>
         <item>
+            <title>0.4.3</title>
+            <pubDate>Wed, 07 Oct 2026 22:53:54 +0300</pubDate>
+            <link>https://github.com/tvidenov/AgentDock-releases/releases</link>
+            <sparkle:version>14</sparkle:version>
+            <sparkle:shortVersionString>0.4.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p><strong>Fixed:</strong> answering a Codex question from the Inbox now works. Before, the answer was sent but the question came straight back, because AgentDock misread Codex's reply as a new question.</p>
+<p><strong>Clearer hover card:</strong> each agent sits on its own tile, and agents waiting on you are tinted amber.</p>
+<p>Also in this update (from 0.4.2):</p>
+<ul><li><strong>Codex questions:</strong> when Codex asks something while it keeps working, its dot turns amber and the question appears in the Inbox. Answer with 1–9, like Claude's questions.</li><li><strong>Settings (⌘,)</strong> with a live preview: choose what the hover card shows and when idle agents fold away.</li><li><strong>A richer, compact hover card:</strong> model, live turn timers, optional tokens and today's usage. It fits its content.</li></ul>
+]]></description>
+            <enclosure url="https://github.com/tvidenov/AgentDock-releases/releases/download/v0.4.3/AgentDock-0.4.3.dmg" length="3989654" type="application/octet-stream" sparkle:edSignature="KK1gWralNz6RkIw8VgYKIHZ/UmQkIKJyJ2HRnvHnjCngjZ+sznrsXyhAGqrbuTorXJnpeL4jD+y7itftzvOzBQ=="/>
+        </item>
+        <item>
             <title>0.4.2</title>
             <pubDate>Wed, 07 Oct 2026 22:44:07 +0300</pubDate>
             <link>https://github.com/tvidenov/AgentDock-releases/releases</link>
