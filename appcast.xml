@@ -3,6 +3,18 @@
     <channel>
         <title>AgentDock</title>
         <item>
+            <title>0.5.1</title>
+            <pubDate>Thu, 08 Oct 2026 01:38:01 +0300</pubDate>
+            <link>https://github.com/tvidenov/AgentDock-releases/releases</link>
+            <sparkle:version>29</sparkle:version>
+            <sparkle:shortVersionString>0.5.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p><strong>AgentDock on your iPhone, anywhere.</strong></p>
+<ul><li><strong>The AgentDock iPhone app</strong> pairs with a code in Settings › iPhone and shows your agents and the Inbox: answer, reply, send next steps and undo, like on the Mac.</li><li><strong>A relay</strong> lets the app reach your Mac when you're away from your network. Everything is encrypted end to end with a key that only lives in the pairing code, so the relay can't read or change anything. Enter its address in Settings › iPhone › Relay (how to run one: relay/README.md in the source).</li><li>Without a relay, the app and the Safari page work on the same network as before.</li></ul>
+]]></description>
+            <enclosure url="https://github.com/tvidenov/AgentDock-releases/releases/download/v0.5.1/AgentDock-0.5.1.dmg" length="4805637" type="application/octet-stream" sparkle:edSignature="y0lfIwxSZ7SJWzIE5UeRBNyRgUJTsi6R77h82bbRc54MP5cjsnxz//+C1uj6UKopdzdcJsT9n4E+SvJSxiFzAw=="/>
+        </item>
+        <item>
             <title>0.5.0</title>
             <pubDate>Thu, 08 Oct 2026 01:22:59 +0300</pubDate>
             <link>https://github.com/tvidenov/AgentDock-releases/releases</link>
@@ -25,19 +37,6 @@
 <ul><li>To also see when one of them <strong>needs you</strong> (a question or permission prompt), turn on Settings › Agents outside cmux › Know when Claude Code needs you. It adds a small hook to <code>~/.claude/settings.json</code> and applies to sessions started afterwards.</li><li>Codex app and Codex CLI sessions show up as before.</li></ul>
 ]]></description>
             <enclosure url="https://github.com/tvidenov/AgentDock-releases/releases/download/v0.4.6/AgentDock-0.4.6.dmg" length="4449895" type="application/octet-stream" sparkle:edSignature="qVwF3xpq4kk3+yNqcip4K3EY0NfaKVYjw90zWh1Rhi8j7dY6TaLw8DRMBUoPSnIXTFBvprsEZRBoBK8jM5iSCQ=="/>
-        </item>
-        <item>
-            <title>0.4.5</title>
-            <pubDate>Thu, 08 Oct 2026 00:28:00 +0300</pubDate>
-            <link>https://github.com/tvidenov/AgentDock-releases/releases</link>
-            <sparkle:version>18</sparkle:version>
-            <sparkle:shortVersionString>0.4.5</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<p><strong>Agents outside cmux.</strong> AgentDock now also shows the agents you run elsewhere:</p>
-<ul><li><strong>Codex app and Codex CLI:</strong> threads from the Codex app (in ChatGPT) and the Codex CLI in any terminal appear on the strip with their names, turn timers and questions. Nothing to install; turn it off in Settings › Agents outside cmux.</li><li><strong>Claude Code anywhere:</strong> turn on Settings › Agents outside cmux › Claude Code, and sessions in any terminal, the Claude app and your editor show up too. This adds a small hook to <code>~/.claude/settings.json</code> (backed up first); turning it off removes it.</li><li>Clicking one takes you there: the right iTerm or Terminal tab, tmux pane, or the app it runs in. The Inbox lists them too; answering them from AgentDock comes in a later update (for now ↩ opens them).</li></ul>
-<p>Also faster: reading long Codex sessions no longer slows down on very large log lines.</p>
-]]></description>
-            <enclosure url="https://github.com/tvidenov/AgentDock-releases/releases/download/v0.4.5/AgentDock-0.4.5.dmg" length="4407417" type="application/octet-stream" sparkle:edSignature="ni6fj6PbTbXrAYhdoDfnsucM87cJ9QlUEUXeE4F49JIDvIL7mBJahgMezrApxyBKjbyjCAFRPegNNLBduUXKAw=="/>
         </item>
     </channel>
 </rss>
