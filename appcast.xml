@@ -3,6 +3,18 @@
     <channel>
         <title>AgentDock</title>
         <item>
+            <title>0.4.6</title>
+            <pubDate>Thu, 08 Oct 2026 00:33:00 +0300</pubDate>
+            <link>https://github.com/tvidenov/AgentDock-releases/releases</link>
+            <sparkle:version>20</sparkle:version>
+            <sparkle:shortVersionString>0.4.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p><strong>Claude Code everywhere, nothing to install.</strong> Every Claude Code session running outside cmux now shows up on the strip, in any terminal and in the Claude app, including sessions that were already running, with their own names and turn timers.</p>
+<ul><li>To also see when one of them <strong>needs you</strong> (a question or permission prompt), turn on Settings › Agents outside cmux › Know when Claude Code needs you. It adds a small hook to <code>~/.claude/settings.json</code> and applies to sessions started afterwards.</li><li>Codex app and Codex CLI sessions show up as before.</li></ul>
+]]></description>
+            <enclosure url="https://github.com/tvidenov/AgentDock-releases/releases/download/v0.4.6/AgentDock-0.4.6.dmg" length="4449895" type="application/octet-stream" sparkle:edSignature="qVwF3xpq4kk3+yNqcip4K3EY0NfaKVYjw90zWh1Rhi8j7dY6TaLw8DRMBUoPSnIXTFBvprsEZRBoBK8jM5iSCQ=="/>
+        </item>
+        <item>
             <title>0.4.5</title>
             <pubDate>Thu, 08 Oct 2026 00:28:00 +0300</pubDate>
             <link>https://github.com/tvidenov/AgentDock-releases/releases</link>
@@ -28,20 +40,6 @@
 <p>Also: details now line up under each agent's name.</p>
 ]]></description>
             <enclosure url="https://github.com/tvidenov/AgentDock-releases/releases/download/v0.4.4/AgentDock-0.4.4.dmg" length="4157301" type="application/octet-stream" sparkle:edSignature="nhOcHJfGvkeYSBrZsa4yOCTnScYceJ++AQ5j/JMOk05qSLJt98aN96pndS5pCz3bx1xNa2JSLtEWrXIlFiTPCg=="/>
-        </item>
-        <item>
-            <title>0.4.3</title>
-            <pubDate>Wed, 07 Oct 2026 22:53:54 +0300</pubDate>
-            <link>https://github.com/tvidenov/AgentDock-releases/releases</link>
-            <sparkle:version>14</sparkle:version>
-            <sparkle:shortVersionString>0.4.3</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<p><strong>Fixed:</strong> answering a Codex question from the Inbox now works. Before, the answer was sent but the question came straight back, because AgentDock misread Codex's reply as a new question.</p>
-<p><strong>Clearer hover card:</strong> each agent sits on its own tile, and agents waiting on you are tinted amber.</p>
-<p>Also in this update (from 0.4.2):</p>
-<ul><li><strong>Codex questions:</strong> when Codex asks something while it keeps working, its dot turns amber and the question appears in the Inbox. Answer with 1–9, like Claude's questions.</li><li><strong>Settings (⌘,)</strong> with a live preview: choose what the hover card shows and when idle agents fold away.</li><li><strong>A richer, compact hover card:</strong> model, live turn timers, optional tokens and today's usage. It fits its content.</li></ul>
-]]></description>
-            <enclosure url="https://github.com/tvidenov/AgentDock-releases/releases/download/v0.4.3/AgentDock-0.4.3.dmg" length="3989654" type="application/octet-stream" sparkle:edSignature="KK1gWralNz6RkIw8VgYKIHZ/UmQkIKJyJ2HRnvHnjCngjZ+sznrsXyhAGqrbuTorXJnpeL4jD+y7itftzvOzBQ=="/>
         </item>
     </channel>
 </rss>
