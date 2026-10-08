@@ -3,6 +3,18 @@
     <channel>
         <title>AgentDock</title>
         <item>
+            <title>0.5.7</title>
+            <pubDate>Thu, 08 Oct 2026 18:11:24 +0300</pubDate>
+            <link>https://github.com/tvidenov/AgentDock-releases/releases</link>
+            <sparkle:version>44</sparkle:version>
+            <sparkle:shortVersionString>0.5.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p><strong>See which provider each agent is.</strong></p>
+<ul><li><strong>Provider icons:</strong> turn on Settings › Appearance › Provider icons and every dot shows its agent's logo (Claude, Codex, Gemini, Grok; a square for other agents), on the strip, the hover card, the Inbox and ⌥⌥. The color still says what the agent is doing, and agents that need you keep their halo.</li><li><strong>The hover card's marks are now the providers' logos</strong>, so a dot on the strip and its row look alike.</li><li>The Settings preview shows the folded strip beside the hover card.</li></ul>
+]]></description>
+            <enclosure url="https://github.com/tvidenov/AgentDock-releases/releases/download/v0.5.7/AgentDock-0.5.7.dmg" length="5006463" type="application/octet-stream" sparkle:edSignature="TggfhM4msoo8IvAnmai9clFz/6kOOBmQfgbVLALTba1UNKwARXIO8URSuzEtD8tXVJtuLMkGeiiQHSmmGR0dBA=="/>
+        </item>
+        <item>
             <title>0.5.6</title>
             <pubDate>Thu, 08 Oct 2026 17:41:40 +0300</pubDate>
             <link>https://github.com/tvidenov/AgentDock-releases/releases</link>
@@ -25,20 +37,6 @@
 <ul><li><strong>AgentDock no longer quits when Claude Code's hook reports an event.</strong> With "Know when Claude Code needs you" turned on, 0.5.3 and 0.5.4 crashed on the first event from any session started afterwards.</li><li><strong>Today's tokens are counted once.</strong> Resumed and forked sessions copy earlier messages into new files, and those were counted again, as was the history a resumed Codex thread carries into its new file. Totals were up to 40% too high.</li><li><strong>The hover card says how much was re-read from cache.</strong> Every request sends the whole conversation again, mostly from the prompt cache, which is why daily totals run into the hundreds of millions.</li></ul>
 ]]></description>
             <enclosure url="https://github.com/tvidenov/AgentDock-releases/releases/download/v0.5.5/AgentDock-0.5.5.dmg" length="4950664" type="application/octet-stream" sparkle:edSignature="bQFy3fGOIJvtUayRPOiRkCTbR1yvtjf8BksriI9bRmW4R00DI65c89rLruXLFVIiwSuy+R6H0j0VDzhGRK5XAw=="/>
-        </item>
-        <item>
-            <title>0.5.4</title>
-            <pubDate>Thu, 08 Oct 2026 16:03:37 +0300</pubDate>
-            <link>https://github.com/tvidenov/AgentDock-releases/releases</link>
-            <sparkle:version>35</sparkle:version>
-            <sparkle:shortVersionString>0.5.4</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<p><strong>Codex app threads open where they are.</strong></p>
-<ul><li><strong>Clicking a Codex app thread opens that thread</strong> in the Codex app, from the strip or an Inbox card.</li><li><strong>Threads in the current Codex app are recognised as the app's.</strong> It now runs them through a copy of the Codex CLI it carries inside, so AgentDock took them for a terminal session and clicking did nothing.</li><li>Release notes are back: 0.5.2 and 0.5.3 went out without them.</li></ul>
-<p><strong>Also new since 0.5.1:</strong></p>
-<ul><li><strong>⌘-click an agent</strong> on the strip to go straight to it, and choose in Settings › General what a plain click does. Inbox cards have a button that takes you to the agent.</li><li><strong>Settings is in tabs</strong> at one size, with <strong>Settings › Apps</strong>: what works in each app and terminal, how to set it up, and whether it's ready on this Mac.</li></ul>
-]]></description>
-            <enclosure url="https://github.com/tvidenov/AgentDock-releases/releases/download/v0.5.4/AgentDock-0.5.4.dmg" length="4949767" type="application/octet-stream" sparkle:edSignature="7UykPeNoy5N83OSpINMCGq5xYtzFPCopekwXiuiQirQ9Uz3VhbbczsardRAMY8/mi5Jv2AGJmG2VP/nTuw0LDg=="/>
         </item>
     </channel>
 </rss>
