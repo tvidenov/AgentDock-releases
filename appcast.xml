@@ -3,6 +3,15 @@
     <channel>
         <title>AgentDock</title>
         <item>
+            <title>0.5.3</title>
+            <pubDate>Thu, 08 Oct 2026 15:39:54 +0300</pubDate>
+            <link>https://github.com/tvidenov/AgentDock-releases/releases</link>
+            <sparkle:version>33</sparkle:version>
+            <sparkle:shortVersionString>0.5.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/tvidenov/AgentDock-releases/releases/download/v0.5.3/AgentDock-0.5.3.dmg" length="4939693" type="application/octet-stream" sparkle:edSignature="kHS0n8iT4ExPblk0NQ31Md0sBNXIZm903WnyaLkiFp9J2DtfSBU+7pXBfHWDeAH07+0NHEFSd8kZTxyBcAl3Cw=="/>
+        </item>
+        <item>
             <title>0.5.2</title>
             <pubDate>Thu, 08 Oct 2026 14:46:30 +0300</pubDate>
             <link>https://github.com/tvidenov/AgentDock-releases/releases</link>
@@ -22,18 +31,6 @@
 <ul><li><strong>The AgentDock iPhone app</strong> pairs with a code in Settings › iPhone and shows your agents and the Inbox: answer, reply, send next steps and undo, like on the Mac.</li><li><strong>A relay</strong> lets the app reach your Mac when you're away from your network. Everything is encrypted end to end with a key that only lives in the pairing code, so the relay can't read or change anything. Enter its address in Settings › iPhone › Relay (how to run one: relay/README.md in the source).</li><li>Without a relay, the app and the Safari page work on the same network as before.</li></ul>
 ]]></description>
             <enclosure url="https://github.com/tvidenov/AgentDock-releases/releases/download/v0.5.1/AgentDock-0.5.1.dmg" length="4805637" type="application/octet-stream" sparkle:edSignature="y0lfIwxSZ7SJWzIE5UeRBNyRgUJTsi6R77h82bbRc54MP5cjsnxz//+C1uj6UKopdzdcJsT9n4E+SvJSxiFzAw=="/>
-        </item>
-        <item>
-            <title>0.5.0</title>
-            <pubDate>Thu, 08 Oct 2026 01:22:59 +0300</pubDate>
-            <link>https://github.com/tvidenov/AgentDock-releases/releases</link>
-            <sparkle:version>26</sparkle:version>
-            <sparkle:shortVersionString>0.5.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<p><strong>Answer your agents wherever they run.</strong> This update finishes AgentDock's roadmap:</p>
-<ul><li><strong>Answer Claude Code anywhere.</strong> With Settings › Agents outside cmux › *Know when Claude Code needs you* on, Claude's questions and permission prompts show up in the Inbox and are answered from there (allow, deny, or pick an answer), in any terminal and in the Claude app. Claude's own dialog stays up too; whichever you answer first wins.</li><li><strong>Type into more terminals.</strong> Answers and replies now also reach agents in <strong>tmux, iTerm, WezTerm and kitty</strong>, not only cmux. (macOS asks once before AgentDock may control iTerm.)</li><li><strong>herdr.</strong> Every agent herdr recognises in its panes (Claude, Codex, Gemini, OpenCode…) shows up and is answered through herdr.</li><li><strong>Recaps and next steps.</strong> Finished cards get a one-line recap and three follow-ups to send with ⌘1–⌘3, written on this Mac by Apple Intelligence.</li><li><strong>From your iPhone.</strong> Settings › iPhone serves a page your iPhone opens on the same Wi-Fi: scan the QR code, add it to the Home Screen, and answer from the couch. Off until you turn it on.</li><li><strong>Codex approvals.</strong> An optional Codex hook marks approvals as needing you.</li></ul>
-]]></description>
-            <enclosure url="https://github.com/tvidenov/AgentDock-releases/releases/download/v0.5.0/AgentDock-0.5.0.dmg" length="4749769" type="application/octet-stream" sparkle:edSignature="2m6Urk55eQ2ZIi/dl22CEWyYQQyoMqaGyo7oCrAlb+Rbvy1GVkpIO7D67qp6z/HTKxu120SlepC0edeP0hVnDA=="/>
         </item>
     </channel>
 </rss>
