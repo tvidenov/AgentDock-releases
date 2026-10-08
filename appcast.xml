@@ -3,6 +3,15 @@
     <channel>
         <title>AgentDock</title>
         <item>
+            <title>0.5.2</title>
+            <pubDate>Thu, 08 Oct 2026 14:46:30 +0300</pubDate>
+            <link>https://github.com/tvidenov/AgentDock-releases/releases</link>
+            <sparkle:version>31</sparkle:version>
+            <sparkle:shortVersionString>0.5.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/tvidenov/AgentDock-releases/releases/download/v0.5.2/AgentDock-0.5.2.dmg" length="4926327" type="application/octet-stream" sparkle:edSignature="95x8hrSGtzrgpW3ybgUKbwcb7fLM7EtuA2AzdWed5CtTR6smY46UwMt/fhbBhVGPZoxlap0JmuWfbRuHhk8oCg=="/>
+        </item>
+        <item>
             <title>0.5.1</title>
             <pubDate>Thu, 08 Oct 2026 01:38:01 +0300</pubDate>
             <link>https://github.com/tvidenov/AgentDock-releases/releases</link>
@@ -25,18 +34,6 @@
 <ul><li><strong>Answer Claude Code anywhere.</strong> With Settings › Agents outside cmux › *Know when Claude Code needs you* on, Claude's questions and permission prompts show up in the Inbox and are answered from there (allow, deny, or pick an answer), in any terminal and in the Claude app. Claude's own dialog stays up too; whichever you answer first wins.</li><li><strong>Type into more terminals.</strong> Answers and replies now also reach agents in <strong>tmux, iTerm, WezTerm and kitty</strong>, not only cmux. (macOS asks once before AgentDock may control iTerm.)</li><li><strong>herdr.</strong> Every agent herdr recognises in its panes (Claude, Codex, Gemini, OpenCode…) shows up and is answered through herdr.</li><li><strong>Recaps and next steps.</strong> Finished cards get a one-line recap and three follow-ups to send with ⌘1–⌘3, written on this Mac by Apple Intelligence.</li><li><strong>From your iPhone.</strong> Settings › iPhone serves a page your iPhone opens on the same Wi-Fi: scan the QR code, add it to the Home Screen, and answer from the couch. Off until you turn it on.</li><li><strong>Codex approvals.</strong> An optional Codex hook marks approvals as needing you.</li></ul>
 ]]></description>
             <enclosure url="https://github.com/tvidenov/AgentDock-releases/releases/download/v0.5.0/AgentDock-0.5.0.dmg" length="4749769" type="application/octet-stream" sparkle:edSignature="2m6Urk55eQ2ZIi/dl22CEWyYQQyoMqaGyo7oCrAlb+Rbvy1GVkpIO7D67qp6z/HTKxu120SlepC0edeP0hVnDA=="/>
-        </item>
-        <item>
-            <title>0.4.6</title>
-            <pubDate>Thu, 08 Oct 2026 00:33:00 +0300</pubDate>
-            <link>https://github.com/tvidenov/AgentDock-releases/releases</link>
-            <sparkle:version>20</sparkle:version>
-            <sparkle:shortVersionString>0.4.6</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<p><strong>Claude Code everywhere, nothing to install.</strong> Every Claude Code session running outside cmux now shows up on the strip, in any terminal and in the Claude app, including sessions that were already running, with their own names and turn timers.</p>
-<ul><li>To also see when one of them <strong>needs you</strong> (a question or permission prompt), turn on Settings › Agents outside cmux › Know when Claude Code needs you. It adds a small hook to <code>~/.claude/settings.json</code> and applies to sessions started afterwards.</li><li>Codex app and Codex CLI sessions show up as before.</li></ul>
-]]></description>
-            <enclosure url="https://github.com/tvidenov/AgentDock-releases/releases/download/v0.4.6/AgentDock-0.4.6.dmg" length="4449895" type="application/octet-stream" sparkle:edSignature="qVwF3xpq4kk3+yNqcip4K3EY0NfaKVYjw90zWh1Rhi8j7dY6TaLw8DRMBUoPSnIXTFBvprsEZRBoBK8jM5iSCQ=="/>
         </item>
     </channel>
 </rss>
