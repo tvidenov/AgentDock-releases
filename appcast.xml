@@ -3,6 +3,18 @@
     <channel>
         <title>AgentDock</title>
         <item>
+            <title>0.5.5</title>
+            <pubDate>Thu, 08 Oct 2026 16:30:39 +0300</pubDate>
+            <link>https://github.com/tvidenov/AgentDock-releases/releases</link>
+            <sparkle:version>37</sparkle:version>
+            <sparkle:shortVersionString>0.5.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p><strong>Fixes a crash, and today's token count.</strong></p>
+<ul><li><strong>AgentDock no longer quits when Claude Code's hook reports an event.</strong> With "Know when Claude Code needs you" turned on, 0.5.3 and 0.5.4 crashed on the first event from any session started afterwards.</li><li><strong>Today's tokens are counted once.</strong> Resumed and forked sessions copy earlier messages into new files, and those were counted again, as was the history a resumed Codex thread carries into its new file. Totals were up to 40% too high.</li><li><strong>The hover card says how much was re-read from cache.</strong> Every request sends the whole conversation again, mostly from the prompt cache, which is why daily totals run into the hundreds of millions.</li></ul>
+]]></description>
+            <enclosure url="https://github.com/tvidenov/AgentDock-releases/releases/download/v0.5.5/AgentDock-0.5.5.dmg" length="4950664" type="application/octet-stream" sparkle:edSignature="bQFy3fGOIJvtUayRPOiRkCTbR1yvtjf8BksriI9bRmW4R00DI65c89rLruXLFVIiwSuy+R6H0j0VDzhGRK5XAw=="/>
+        </item>
+        <item>
             <title>0.5.4</title>
             <pubDate>Thu, 08 Oct 2026 16:03:37 +0300</pubDate>
             <link>https://github.com/tvidenov/AgentDock-releases/releases</link>
@@ -24,15 +36,6 @@
             <sparkle:shortVersionString>0.5.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <enclosure url="https://github.com/tvidenov/AgentDock-releases/releases/download/v0.5.3/AgentDock-0.5.3.dmg" length="4939693" type="application/octet-stream" sparkle:edSignature="kHS0n8iT4ExPblk0NQ31Md0sBNXIZm903WnyaLkiFp9J2DtfSBU+7pXBfHWDeAH07+0NHEFSd8kZTxyBcAl3Cw=="/>
-        </item>
-        <item>
-            <title>0.5.2</title>
-            <pubDate>Thu, 08 Oct 2026 14:46:30 +0300</pubDate>
-            <link>https://github.com/tvidenov/AgentDock-releases/releases</link>
-            <sparkle:version>31</sparkle:version>
-            <sparkle:shortVersionString>0.5.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/tvidenov/AgentDock-releases/releases/download/v0.5.2/AgentDock-0.5.2.dmg" length="4926327" type="application/octet-stream" sparkle:edSignature="95x8hrSGtzrgpW3ybgUKbwcb7fLM7EtuA2AzdWed5CtTR6smY46UwMt/fhbBhVGPZoxlap0JmuWfbRuHhk8oCg=="/>
         </item>
     </channel>
 </rss>
