@@ -3,6 +3,20 @@
     <channel>
         <title>AgentDock</title>
         <item>
+            <title>0.5.4</title>
+            <pubDate>Thu, 08 Oct 2026 16:03:37 +0300</pubDate>
+            <link>https://github.com/tvidenov/AgentDock-releases/releases</link>
+            <sparkle:version>35</sparkle:version>
+            <sparkle:shortVersionString>0.5.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p><strong>Codex app threads open where they are.</strong></p>
+<ul><li><strong>Clicking a Codex app thread opens that thread</strong> in the Codex app, from the strip or an Inbox card.</li><li><strong>Threads in the current Codex app are recognised as the app's.</strong> It now runs them through a copy of the Codex CLI it carries inside, so AgentDock took them for a terminal session and clicking did nothing.</li><li>Release notes are back: 0.5.2 and 0.5.3 went out without them.</li></ul>
+<p><strong>Also new since 0.5.1:</strong></p>
+<ul><li><strong>⌘-click an agent</strong> on the strip to go straight to it, and choose in Settings › General what a plain click does. Inbox cards have a button that takes you to the agent.</li><li><strong>Settings is in tabs</strong> at one size, with <strong>Settings › Apps</strong>: what works in each app and terminal, how to set it up, and whether it's ready on this Mac.</li></ul>
+]]></description>
+            <enclosure url="https://github.com/tvidenov/AgentDock-releases/releases/download/v0.5.4/AgentDock-0.5.4.dmg" length="4949767" type="application/octet-stream" sparkle:edSignature="7UykPeNoy5N83OSpINMCGq5xYtzFPCopekwXiuiQirQ9Uz3VhbbczsardRAMY8/mi5Jv2AGJmG2VP/nTuw0LDg=="/>
+        </item>
+        <item>
             <title>0.5.3</title>
             <pubDate>Thu, 08 Oct 2026 15:39:54 +0300</pubDate>
             <link>https://github.com/tvidenov/AgentDock-releases/releases</link>
@@ -19,18 +33,6 @@
             <sparkle:shortVersionString>0.5.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <enclosure url="https://github.com/tvidenov/AgentDock-releases/releases/download/v0.5.2/AgentDock-0.5.2.dmg" length="4926327" type="application/octet-stream" sparkle:edSignature="95x8hrSGtzrgpW3ybgUKbwcb7fLM7EtuA2AzdWed5CtTR6smY46UwMt/fhbBhVGPZoxlap0JmuWfbRuHhk8oCg=="/>
-        </item>
-        <item>
-            <title>0.5.1</title>
-            <pubDate>Thu, 08 Oct 2026 01:38:01 +0300</pubDate>
-            <link>https://github.com/tvidenov/AgentDock-releases/releases</link>
-            <sparkle:version>29</sparkle:version>
-            <sparkle:shortVersionString>0.5.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<p><strong>AgentDock on your iPhone, anywhere.</strong></p>
-<ul><li><strong>The AgentDock iPhone app</strong> pairs with a code in Settings › iPhone and shows your agents and the Inbox: answer, reply, send next steps and undo, like on the Mac.</li><li><strong>A relay</strong> lets the app reach your Mac when you're away from your network. Everything is encrypted end to end with a key that only lives in the pairing code, so the relay can't read or change anything. Enter its address in Settings › iPhone › Relay (how to run one: relay/README.md in the source).</li><li>Without a relay, the app and the Safari page work on the same network as before.</li></ul>
-]]></description>
-            <enclosure url="https://github.com/tvidenov/AgentDock-releases/releases/download/v0.5.1/AgentDock-0.5.1.dmg" length="4805637" type="application/octet-stream" sparkle:edSignature="y0lfIwxSZ7SJWzIE5UeRBNyRgUJTsi6R77h82bbRc54MP5cjsnxz//+C1uj6UKopdzdcJsT9n4E+SvJSxiFzAw=="/>
         </item>
     </channel>
 </rss>
