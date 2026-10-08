@@ -3,6 +3,18 @@
     <channel>
         <title>AgentDock</title>
         <item>
+            <title>0.5.6</title>
+            <pubDate>Thu, 08 Oct 2026 17:41:40 +0300</pubDate>
+            <link>https://github.com/tvidenov/AgentDock-releases/releases</link>
+            <sparkle:version>40</sparkle:version>
+            <sparkle:shortVersionString>0.5.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p><strong>Fixes agents in cmux blinking in and out.</strong></p>
+<ul><li><strong>A Claude Code session in cmux no longer appears and disappears every few seconds.</strong> cmux can mark a running session as ended and keep it that way; AgentDock now checks whether the session's process is still running before believing it.</li><li><strong>Claude Code sessions outside cmux show up by themselves again.</strong> Claude Code's own installer names its program after its version, and AgentDock didn't recognise it, so those sessions only appeared once the hook reported them.</li></ul>
+]]></description>
+            <enclosure url="https://github.com/tvidenov/AgentDock-releases/releases/download/v0.5.6/AgentDock-0.5.6.dmg" length="4996008" type="application/octet-stream" sparkle:edSignature="h1poxdbOg9uzmRBjMJMCow2qKtZFCTTfmgiqWoD31IiJLW3dCa3pjipMN3IjthC/Gkx4l8kfQ9EyFpVSDSgXAg=="/>
+        </item>
+        <item>
             <title>0.5.5</title>
             <pubDate>Thu, 08 Oct 2026 16:30:39 +0300</pubDate>
             <link>https://github.com/tvidenov/AgentDock-releases/releases</link>
@@ -27,15 +39,6 @@
 <ul><li><strong>⌘-click an agent</strong> on the strip to go straight to it, and choose in Settings › General what a plain click does. Inbox cards have a button that takes you to the agent.</li><li><strong>Settings is in tabs</strong> at one size, with <strong>Settings › Apps</strong>: what works in each app and terminal, how to set it up, and whether it's ready on this Mac.</li></ul>
 ]]></description>
             <enclosure url="https://github.com/tvidenov/AgentDock-releases/releases/download/v0.5.4/AgentDock-0.5.4.dmg" length="4949767" type="application/octet-stream" sparkle:edSignature="7UykPeNoy5N83OSpINMCGq5xYtzFPCopekwXiuiQirQ9Uz3VhbbczsardRAMY8/mi5Jv2AGJmG2VP/nTuw0LDg=="/>
-        </item>
-        <item>
-            <title>0.5.3</title>
-            <pubDate>Thu, 08 Oct 2026 15:39:54 +0300</pubDate>
-            <link>https://github.com/tvidenov/AgentDock-releases/releases</link>
-            <sparkle:version>33</sparkle:version>
-            <sparkle:shortVersionString>0.5.3</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/tvidenov/AgentDock-releases/releases/download/v0.5.3/AgentDock-0.5.3.dmg" length="4939693" type="application/octet-stream" sparkle:edSignature="kHS0n8iT4ExPblk0NQ31Md0sBNXIZm903WnyaLkiFp9J2DtfSBU+7pXBfHWDeAH07+0NHEFSd8kZTxyBcAl3Cw=="/>
         </item>
     </channel>
 </rss>
