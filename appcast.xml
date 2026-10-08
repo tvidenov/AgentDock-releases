@@ -3,6 +3,18 @@
     <channel>
         <title>AgentDock</title>
         <item>
+            <title>0.5.8</title>
+            <pubDate>Thu, 08 Oct 2026 18:26:07 +0300</pubDate>
+            <link>https://github.com/tvidenov/AgentDock-releases/releases</link>
+            <sparkle:version>48</sparkle:version>
+            <sparkle:shortVersionString>0.5.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p><strong>Logos where they help, and updates that show up right away.</strong></p>
+<ul><li><strong>Provider icons now stay on the folded strip.</strong> The hover card, the Inbox and ⌥⌥ go back to plain status dots, since their rows already start with each agent's logo.</li><li><strong>New versions are offered as soon as they're out.</strong> AgentDock used to be handed a cached copy of the update feed for a few minutes after a release, so "Check for Updates" could miss it.</li></ul>
+]]></description>
+            <enclosure url="https://github.com/tvidenov/AgentDock-releases/releases/download/v0.5.8/AgentDock-0.5.8.dmg" length="5009930" type="application/octet-stream" sparkle:edSignature="1l+NUJ03Nu9zoJvGXUcryl1xqTzOysPC4e1E6zW8iZ6JJ9tBK8ampXkj2ODwnicKhQdd0KzVRyHEP2RvWq3AAw=="/>
+        </item>
+        <item>
             <title>0.5.7</title>
             <pubDate>Thu, 08 Oct 2026 18:11:24 +0300</pubDate>
             <link>https://github.com/tvidenov/AgentDock-releases/releases</link>
@@ -25,18 +37,6 @@
 <ul><li><strong>A Claude Code session in cmux no longer appears and disappears every few seconds.</strong> cmux can mark a running session as ended and keep it that way; AgentDock now checks whether the session's process is still running before believing it.</li><li><strong>Claude Code sessions outside cmux show up by themselves again.</strong> Claude Code's own installer names its program after its version, and AgentDock didn't recognise it, so those sessions only appeared once the hook reported them.</li></ul>
 ]]></description>
             <enclosure url="https://github.com/tvidenov/AgentDock-releases/releases/download/v0.5.6/AgentDock-0.5.6.dmg" length="4996008" type="application/octet-stream" sparkle:edSignature="h1poxdbOg9uzmRBjMJMCow2qKtZFCTTfmgiqWoD31IiJLW3dCa3pjipMN3IjthC/Gkx4l8kfQ9EyFpVSDSgXAg=="/>
-        </item>
-        <item>
-            <title>0.5.5</title>
-            <pubDate>Thu, 08 Oct 2026 16:30:39 +0300</pubDate>
-            <link>https://github.com/tvidenov/AgentDock-releases/releases</link>
-            <sparkle:version>37</sparkle:version>
-            <sparkle:shortVersionString>0.5.5</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<p><strong>Fixes a crash, and today's token count.</strong></p>
-<ul><li><strong>AgentDock no longer quits when Claude Code's hook reports an event.</strong> With "Know when Claude Code needs you" turned on, 0.5.3 and 0.5.4 crashed on the first event from any session started afterwards.</li><li><strong>Today's tokens are counted once.</strong> Resumed and forked sessions copy earlier messages into new files, and those were counted again, as was the history a resumed Codex thread carries into its new file. Totals were up to 40% too high.</li><li><strong>The hover card says how much was re-read from cache.</strong> Every request sends the whole conversation again, mostly from the prompt cache, which is why daily totals run into the hundreds of millions.</li></ul>
-]]></description>
-            <enclosure url="https://github.com/tvidenov/AgentDock-releases/releases/download/v0.5.5/AgentDock-0.5.5.dmg" length="4950664" type="application/octet-stream" sparkle:edSignature="bQFy3fGOIJvtUayRPOiRkCTbR1yvtjf8BksriI9bRmW4R00DI65c89rLruXLFVIiwSuy+R6H0j0VDzhGRK5XAw=="/>
         </item>
     </channel>
 </rss>
