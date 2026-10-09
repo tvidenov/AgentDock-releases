@@ -3,6 +3,19 @@
     <channel>
         <title>AgentDock</title>
         <item>
+            <title>1.0.0</title>
+            <pubDate>Fri, 09 Oct 2026 17:43:08 +0300</pubDate>
+            <link>https://github.com/tvidenov/AgentDock-releases/releases</link>
+            <sparkle:version>62</sparkle:version>
+            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p><strong>AgentDock 1.0: now $19, after a 7-day free trial.</strong></p>
+<ul><li><strong>Try everything for 7 days.</strong> After the trial, the status dots and the hover card keep working for free. Answering from the Inbox, ⌥⌥ messages and answering from your iPhone need a license.</li><li><strong>$19 once (plus tax where it applies), for up to 3 Macs.</strong> Buy it from the menu or Settings › License. After paying, your browser brings you straight back to AgentDock with the key filled in.</li><li><strong>Lost your key?</strong> agentdockapp.com/activate finds it again from your email and the card you paid with.</li><li>Settings › License shows your trial, your license, and frees a Mac when you move to a new one.</li><li>The iPhone page says when answering is locked, instead of quietly doing nothing.</li><li>Fixed: two copies of AgentDock running at once (say, a test build) could cut each other off from Claude Code's hook.</li></ul>
+<p>Thank you for trying AgentDock early.</p>
+]]></description>
+            <enclosure url="https://github.com/tvidenov/AgentDock-releases/releases/download/v1.0.0/AgentDock-1.0.0.dmg" length="5143756" type="application/octet-stream" sparkle:edSignature="V9mK0ECiepjnN5ipacve9tuWt2q0wu1H6MUkSJu0gwrus2g6qV3/MBrw1UzQ8+MQCcD8hhpDT8WTnzXsI8ajBw=="/>
+        </item>
+        <item>
             <title>0.5.8</title>
             <pubDate>Thu, 08 Oct 2026 18:26:07 +0300</pubDate>
             <link>https://github.com/tvidenov/AgentDock-releases/releases</link>
@@ -25,18 +38,6 @@
 <ul><li><strong>Provider icons:</strong> turn on Settings › Appearance › Provider icons and every dot shows its agent's logo (Claude, Codex, Gemini, Grok; a square for other agents), on the strip, the hover card, the Inbox and ⌥⌥. The color still says what the agent is doing, and agents that need you keep their halo.</li><li><strong>The hover card's marks are now the providers' logos</strong>, so a dot on the strip and its row look alike.</li><li>The Settings preview shows the folded strip beside the hover card.</li></ul>
 ]]></description>
             <enclosure url="https://github.com/tvidenov/AgentDock-releases/releases/download/v0.5.7/AgentDock-0.5.7.dmg" length="5006463" type="application/octet-stream" sparkle:edSignature="TggfhM4msoo8IvAnmai9clFz/6kOOBmQfgbVLALTba1UNKwARXIO8URSuzEtD8tXVJtuLMkGeiiQHSmmGR0dBA=="/>
-        </item>
-        <item>
-            <title>0.5.6</title>
-            <pubDate>Thu, 08 Oct 2026 17:41:40 +0300</pubDate>
-            <link>https://github.com/tvidenov/AgentDock-releases/releases</link>
-            <sparkle:version>40</sparkle:version>
-            <sparkle:shortVersionString>0.5.6</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<p><strong>Fixes agents in cmux blinking in and out.</strong></p>
-<ul><li><strong>A Claude Code session in cmux no longer appears and disappears every few seconds.</strong> cmux can mark a running session as ended and keep it that way; AgentDock now checks whether the session's process is still running before believing it.</li><li><strong>Claude Code sessions outside cmux show up by themselves again.</strong> Claude Code's own installer names its program after its version, and AgentDock didn't recognise it, so those sessions only appeared once the hook reported them.</li></ul>
-]]></description>
-            <enclosure url="https://github.com/tvidenov/AgentDock-releases/releases/download/v0.5.6/AgentDock-0.5.6.dmg" length="4996008" type="application/octet-stream" sparkle:edSignature="h1poxdbOg9uzmRBjMJMCow2qKtZFCTTfmgiqWoD31IiJLW3dCa3pjipMN3IjthC/Gkx4l8kfQ9EyFpVSDSgXAg=="/>
         </item>
     </channel>
 </rss>
