@@ -15,29 +15,5 @@
 ]]></description>
             <enclosure url="https://github.com/tvidenov/AgentDock-releases/releases/download/v1.0.0/AgentDock-1.0.0.dmg" length="5143756" type="application/octet-stream" sparkle:edSignature="V9mK0ECiepjnN5ipacve9tuWt2q0wu1H6MUkSJu0gwrus2g6qV3/MBrw1UzQ8+MQCcD8hhpDT8WTnzXsI8ajBw=="/>
         </item>
-        <item>
-            <title>0.5.8</title>
-            <pubDate>Thu, 08 Oct 2026 18:26:07 +0300</pubDate>
-            <link>https://github.com/tvidenov/AgentDock-releases/releases</link>
-            <sparkle:version>48</sparkle:version>
-            <sparkle:shortVersionString>0.5.8</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<p><strong>Logos where they help, and updates that show up right away.</strong></p>
-<ul><li><strong>Provider icons now stay on the folded strip.</strong> The hover card, the Inbox and ⌥⌥ go back to plain status dots, since their rows already start with each agent's logo.</li><li><strong>New versions are offered as soon as they're out.</strong> AgentDock used to be handed a cached copy of the update feed for a few minutes after a release, so "Check for Updates" could miss it.</li></ul>
-]]></description>
-            <enclosure url="https://github.com/tvidenov/AgentDock-releases/releases/download/v0.5.8/AgentDock-0.5.8.dmg" length="5009930" type="application/octet-stream" sparkle:edSignature="1l+NUJ03Nu9zoJvGXUcryl1xqTzOysPC4e1E6zW8iZ6JJ9tBK8ampXkj2ODwnicKhQdd0KzVRyHEP2RvWq3AAw=="/>
-        </item>
-        <item>
-            <title>0.5.7</title>
-            <pubDate>Thu, 08 Oct 2026 18:11:24 +0300</pubDate>
-            <link>https://github.com/tvidenov/AgentDock-releases/releases</link>
-            <sparkle:version>44</sparkle:version>
-            <sparkle:shortVersionString>0.5.7</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<p><strong>See which provider each agent is.</strong></p>
-<ul><li><strong>Provider icons:</strong> turn on Settings › Appearance › Provider icons and every dot shows its agent's logo (Claude, Codex, Gemini, Grok; a square for other agents), on the strip, the hover card, the Inbox and ⌥⌥. The color still says what the agent is doing, and agents that need you keep their halo.</li><li><strong>The hover card's marks are now the providers' logos</strong>, so a dot on the strip and its row look alike.</li><li>The Settings preview shows the folded strip beside the hover card.</li></ul>
-]]></description>
-            <enclosure url="https://github.com/tvidenov/AgentDock-releases/releases/download/v0.5.7/AgentDock-0.5.7.dmg" length="5006463" type="application/octet-stream" sparkle:edSignature="TggfhM4msoo8IvAnmai9clFz/6kOOBmQfgbVLALTba1UNKwARXIO8URSuzEtD8tXVJtuLMkGeiiQHSmmGR0dBA=="/>
-        </item>
     </channel>
 </rss>
