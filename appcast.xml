@@ -3,6 +3,19 @@
     <channel>
         <title>AgentDock</title>
         <item>
+            <title>1.0.1</title>
+            <pubDate>Sat, 10 Oct 2026 10:54:09 +0300</pubDate>
+            <link>https://github.com/tvidenov/AgentDock-releases/releases</link>
+            <sparkle:version>72</sparkle:version>
+            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p><strong>AgentDock 1.0.1: fixes from testing every terminal with real agents.</strong></p>
+<ul><li><strong>iTerm:</strong> ⌥⌥ messages and Inbox replies are sent again. They were typed into the agent's input but never submitted.</li><li><strong>kitty:</strong> clicking an agent brings its own window forward, not just kitty. Messages with backslashes (a path like C:\temp) arrive exactly as typed.</li><li><strong>herdr:</strong> questions from agents in herdr can be answered from the Inbox again; newer herdr versions wouldn't show a waiting agent's screen. An agent that appeared before herdr recognised it no longer stays without its name and logo.</li><li>Claude Code in a terminal opened from the Claude app now shows as that terminal instead of "Claude app", so ⌥⌥ can type to it and clicking finds its tab.</li><li>When an agent has unsent text in its prompt, AgentDock now says to clear it there, instead of always saying "in cmux".</li></ul>
+<p>Tested end to end with Claude Code in cmux, tmux, herdr, iTerm, WezTerm, kitty, Terminal and Ghostty.</p>
+]]></description>
+            <enclosure url="https://github.com/tvidenov/AgentDock-releases/releases/download/v1.0.1/AgentDock-1.0.1.dmg" length="5151636" type="application/octet-stream" sparkle:edSignature="YoNHu5V45+dA/2tnQlLgXaFjzr7ItO+quCI2ZQ9Eq/+HGUN6W8kZhVUBZip6aBZlzamucW4pgrFnXI25kdsZDQ=="/>
+        </item>
+        <item>
             <title>1.0.0</title>
             <pubDate>Fri, 09 Oct 2026 17:43:08 +0300</pubDate>
             <link>https://github.com/tvidenov/AgentDock-releases/releases</link>
