@@ -3,6 +3,18 @@
     <channel>
         <title>AgentDock</title>
         <item>
+            <title>1.0.4</title>
+            <pubDate>Mon, 12 Oct 2026 15:27:50 +0300</pubDate>
+            <link>https://github.com/tvidenov/AgentDock-releases/releases</link>
+            <sparkle:version>99</sparkle:version>
+            <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p><strong>AgentDock 1.0.4: ask for what you're missing, and calmer Codex questions.</strong></p>
+<ul><li><strong>Request a Feature…</strong> (in the menu and Settings › General): see what others have asked for, vote and comment, follow the roadmap, or ask for something yourself. It opens in its own window, and nothing is sent until you open it.</li><li><strong>Codex's "Approve for me":</strong> threads where Codex approves commands itself no longer show as waiting for you while a command runs, and no longer pop up.</li><li><strong>Pop-up questions:</strong> a question you dismiss stays dismissed while its agent keeps working, instead of coming back after each step. Questions you can only answer in the agent's own app, like the Codex app's, get an "Open in…" button.</li><li>A question Codex asks while it keeps working no longer makes its dot flicker.</li></ul>
+]]></description>
+            <enclosure url="https://github.com/tvidenov/AgentDock-releases/releases/download/v1.0.4/AgentDock-1.0.4.dmg" length="6060644" type="application/octet-stream" sparkle:edSignature="8HOk4FyGcCG9goV74pcLLt/ZINHP4IazaQF8oSYTxeZAV8TTr+WeXlO8pwAE0bn8J5dO+B161gZNLu10BDnmBA=="/>
+        </item>
+        <item>
             <title>1.0.3</title>
             <pubDate>Mon, 12 Oct 2026 14:21:56 +0300</pubDate>
             <link>https://github.com/tvidenov/AgentDock-releases/releases</link>
