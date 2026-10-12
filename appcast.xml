@@ -3,6 +3,18 @@
     <channel>
         <title>AgentDock</title>
         <item>
+            <title>1.0.6</title>
+            <pubDate>Mon, 12 Oct 2026 22:13:25 +0300</pubDate>
+            <link>https://github.com/tvidenov/AgentDock-releases/releases</link>
+            <sparkle:version>106</sparkle:version>
+            <sparkle:shortVersionString>1.0.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p><strong>AgentDock 1.0.6: finished work that doesn't linger, and is waiting when you're back.</strong></p>
+<ul><li><strong>Finished agents fold into "quiet"</strong> after the same time as idle ones (Settings › General › Fold idle agents after). AgentDock can't tell when you've read a result in the Claude app or a terminal, so they used to stay up top for hours. The Inbox still keeps every result until you've seen it.</li><li><strong>Back at your Mac,</strong> whatever finished while you were away is up top, for that same time from your return. AgentDock counts you away when your Mac sleeps, the screen locks or turns off, or there's no keyboard or mouse input for five minutes.</li></ul>
+]]></description>
+            <enclosure url="https://github.com/tvidenov/AgentDock-releases/releases/download/v1.0.6/AgentDock-1.0.6.dmg" length="6085390" type="application/octet-stream" sparkle:edSignature="RZXya40rIeQm+pPkX2N7HgqsLAe1am/z+yCHMQHLzukpozMWAAVYbXp9h0hkdqDFpXfuj44WjDWj0xmUG3/NBQ=="/>
+        </item>
+        <item>
             <title>1.0.5</title>
             <pubDate>Mon, 12 Oct 2026 17:23:46 +0300</pubDate>
             <link>https://github.com/tvidenov/AgentDock-releases/releases</link>
@@ -25,18 +37,6 @@
 <ul><li><strong>Request a Feature…</strong> (in the menu and Settings › General): see what others have asked for, vote and comment, follow the roadmap, or ask for something yourself. It opens in its own window, and nothing is sent until you open it.</li><li><strong>Codex's "Approve for me":</strong> threads where Codex approves commands itself no longer show as waiting for you while a command runs, and no longer pop up.</li><li><strong>Pop-up questions:</strong> a question you dismiss stays dismissed while its agent keeps working, instead of coming back after each step. Questions you can only answer in the agent's own app, like the Codex app's, get an "Open in…" button.</li><li>A question Codex asks while it keeps working no longer makes its dot flicker.</li></ul>
 ]]></description>
             <enclosure url="https://github.com/tvidenov/AgentDock-releases/releases/download/v1.0.4/AgentDock-1.0.4.dmg" length="6060644" type="application/octet-stream" sparkle:edSignature="8HOk4FyGcCG9goV74pcLLt/ZINHP4IazaQF8oSYTxeZAV8TTr+WeXlO8pwAE0bn8J5dO+B161gZNLu10BDnmBA=="/>
-        </item>
-        <item>
-            <title>1.0.3</title>
-            <pubDate>Mon, 12 Oct 2026 14:21:56 +0300</pubDate>
-            <link>https://github.com/tvidenov/AgentDock-releases/releases</link>
-            <sparkle:version>92</sparkle:version>
-            <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<p><strong>AgentDock 1.0.3: put the dots where you want them, questions that pop up, finish notifications, and agents grouped by repository.</strong></p>
-<ul><li><strong>Position</strong> (Settings › General): keep the dots on the right edge, move them to the left edge, rest them on the Dock (beside it when your Dock is on a side), or wrap them around the notch on a MacBook, where they open into the card below the menu bar. "Only in the Dock" hides the strip.</li><li><strong>Show in the Dock:</strong> AgentDock can also have a Dock icon, with a badge for the agents that need you and their dots drawn on it. Click it for the Inbox; right-click it for every agent. Being in the Dock also puts AgentDock in ⌘-Tab, so it's off unless you turn it on.</li><li><strong>Decision pop-up</strong> (Settings › Inbox, off unless you turn it on): when an agent asks something, its question pops up in the middle of the screen, or drops from the top (out of the notch on a MacBook), until you answer or dismiss it. It never takes your keyboard unless you ask, with ⌃⌥I or a click, or you can let it take the keys a second after it appears. Answers wait two seconds, as in the Inbox, so esc undoes.</li><li><strong>When an agent finishes</strong> (Settings › Inbox): a notification with its last words, after turns longer than you choose, as a macOS notification (follows Focus, waits in Notification Center) or a banner from the top center (out of the notch on a MacBook). Reply right in it, or Show to open its card. It stays quiet while you're looking at that agent, and the dots can flash, the Dock icon bounce or a sound play. Notifications are off unless you turn them on.</li><li><strong>Group by repository</strong> (Settings › Appearance, off unless you turn it on): agents working in one repository, its worktrees included, sit together under its name in the hover card, and their dots share a capsule. Each group sits where its most urgent agent would, so what needs you still comes first, and inside a group every agent shows just its branch.</li><li>Settings has an Inbox tab, and is a little taller, so every option fits without scrolling.</li></ul>
-]]></description>
-            <enclosure url="https://github.com/tvidenov/AgentDock-releases/releases/download/v1.0.3/AgentDock-1.0.3.dmg" length="5523920" type="application/octet-stream" sparkle:edSignature="SnJ3lzvUIuAHFgxJetwSUU2Dup1KESW90foby14rW89C02hmSGfv2PSy0c4LJm2U8T70EJ9ZUwLGxESf3k6iCw=="/>
         </item>
         <item>
             <title>1.0.1</title>
