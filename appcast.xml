@@ -3,6 +3,18 @@
     <channel>
         <title>AgentDock</title>
         <item>
+            <title>1.0.3</title>
+            <pubDate>Mon, 12 Oct 2026 14:21:56 +0300</pubDate>
+            <link>https://github.com/tvidenov/AgentDock-releases/releases</link>
+            <sparkle:version>92</sparkle:version>
+            <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p><strong>AgentDock 1.0.3: put the dots where you want them, questions that pop up, finish notifications, and agents grouped by repository.</strong></p>
+<ul><li><strong>Position</strong> (Settings › General): keep the dots on the right edge, move them to the left edge, rest them on the Dock (beside it when your Dock is on a side), or wrap them around the notch on a MacBook, where they open into the card below the menu bar. "Only in the Dock" hides the strip.</li><li><strong>Show in the Dock:</strong> AgentDock can also have a Dock icon, with a badge for the agents that need you and their dots drawn on it. Click it for the Inbox; right-click it for every agent. Being in the Dock also puts AgentDock in ⌘-Tab, so it's off unless you turn it on.</li><li><strong>Decision pop-up</strong> (Settings › Inbox, off unless you turn it on): when an agent asks something, its question pops up in the middle of the screen, or drops from the top (out of the notch on a MacBook), until you answer or dismiss it. It never takes your keyboard unless you ask, with ⌃⌥I or a click, or you can let it take the keys a second after it appears. Answers wait two seconds, as in the Inbox, so esc undoes.</li><li><strong>When an agent finishes</strong> (Settings › Inbox): a notification with its last words, after turns longer than you choose, as a macOS notification (follows Focus, waits in Notification Center) or a banner from the top center (out of the notch on a MacBook). Reply right in it, or Show to open its card. It stays quiet while you're looking at that agent, and the dots can flash, the Dock icon bounce or a sound play. Notifications are off unless you turn them on.</li><li><strong>Group by repository</strong> (Settings › Appearance, off unless you turn it on): agents working in one repository, its worktrees included, sit together under its name in the hover card, and their dots share a capsule. Each group sits where its most urgent agent would, so what needs you still comes first, and inside a group every agent shows just its branch.</li><li>Settings has an Inbox tab, and is a little taller, so every option fits without scrolling.</li></ul>
+]]></description>
+            <enclosure url="https://github.com/tvidenov/AgentDock-releases/releases/download/v1.0.3/AgentDock-1.0.3.dmg" length="5523920" type="application/octet-stream" sparkle:edSignature="SnJ3lzvUIuAHFgxJetwSUU2Dup1KESW90foby14rW89C02hmSGfv2PSy0c4LJm2U8T70EJ9ZUwLGxESf3k6iCw=="/>
+        </item>
+        <item>
             <title>1.0.2</title>
             <pubDate>Sun, 11 Oct 2026 15:38:10 +0300</pubDate>
             <link>https://github.com/tvidenov/AgentDock-releases/releases</link>
