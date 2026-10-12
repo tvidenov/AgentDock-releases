@@ -3,6 +3,18 @@
     <channel>
         <title>AgentDock</title>
         <item>
+            <title>1.0.5</title>
+            <pubDate>Mon, 12 Oct 2026 17:23:46 +0300</pubDate>
+            <link>https://github.com/tvidenov/AgentDock-releases/releases</link>
+            <sparkle:version>103</sparkle:version>
+            <sparkle:shortVersionString>1.0.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p><strong>AgentDock 1.0.5: clear about where a question gets answered.</strong></p>
+<ul><li><strong>Questions AgentDock can't answer itself</strong>, like one Codex asks while it works in the Codex app, now show their options for reading instead of offering numbers that then didn't work. The pop-up offers "Open in Codex app", and ↩ in the Inbox takes you there.</li><li><strong>The iPhone page</strong> does the same: such questions list their options and say where to answer on the Mac.</li></ul>
+]]></description>
+            <enclosure url="https://github.com/tvidenov/AgentDock-releases/releases/download/v1.0.5/AgentDock-1.0.5.dmg" length="6066700" type="application/octet-stream" sparkle:edSignature="O03HY0kPfhydGSBKNvkVo1kimVbjIr1DTFGRM55cwUeOMoFDgGtQY4LZssDBoP8ePFAk5+EWos512ChwEoJVDQ=="/>
+        </item>
+        <item>
             <title>1.0.4</title>
             <pubDate>Mon, 12 Oct 2026 15:27:50 +0300</pubDate>
             <link>https://github.com/tvidenov/AgentDock-releases/releases</link>
@@ -25,19 +37,6 @@
 <ul><li><strong>Position</strong> (Settings › General): keep the dots on the right edge, move them to the left edge, rest them on the Dock (beside it when your Dock is on a side), or wrap them around the notch on a MacBook, where they open into the card below the menu bar. "Only in the Dock" hides the strip.</li><li><strong>Show in the Dock:</strong> AgentDock can also have a Dock icon, with a badge for the agents that need you and their dots drawn on it. Click it for the Inbox; right-click it for every agent. Being in the Dock also puts AgentDock in ⌘-Tab, so it's off unless you turn it on.</li><li><strong>Decision pop-up</strong> (Settings › Inbox, off unless you turn it on): when an agent asks something, its question pops up in the middle of the screen, or drops from the top (out of the notch on a MacBook), until you answer or dismiss it. It never takes your keyboard unless you ask, with ⌃⌥I or a click, or you can let it take the keys a second after it appears. Answers wait two seconds, as in the Inbox, so esc undoes.</li><li><strong>When an agent finishes</strong> (Settings › Inbox): a notification with its last words, after turns longer than you choose, as a macOS notification (follows Focus, waits in Notification Center) or a banner from the top center (out of the notch on a MacBook). Reply right in it, or Show to open its card. It stays quiet while you're looking at that agent, and the dots can flash, the Dock icon bounce or a sound play. Notifications are off unless you turn them on.</li><li><strong>Group by repository</strong> (Settings › Appearance, off unless you turn it on): agents working in one repository, its worktrees included, sit together under its name in the hover card, and their dots share a capsule. Each group sits where its most urgent agent would, so what needs you still comes first, and inside a group every agent shows just its branch.</li><li>Settings has an Inbox tab, and is a little taller, so every option fits without scrolling.</li></ul>
 ]]></description>
             <enclosure url="https://github.com/tvidenov/AgentDock-releases/releases/download/v1.0.3/AgentDock-1.0.3.dmg" length="5523920" type="application/octet-stream" sparkle:edSignature="SnJ3lzvUIuAHFgxJetwSUU2Dup1KESW90foby14rW89C02hmSGfv2PSy0c4LJm2U8T70EJ9ZUwLGxESf3k6iCw=="/>
-        </item>
-        <item>
-            <title>1.0.2</title>
-            <pubDate>Sun, 11 Oct 2026 15:38:10 +0300</pubDate>
-            <link>https://github.com/tvidenov/AgentDock-releases/releases</link>
-            <sparkle:version>83</sparkle:version>
-            <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<p><strong>AgentDock 1.0.2: git branches, macOS 15, Grok Build, and Codex in every terminal.</strong></p>
-<ul><li><strong>Git branches:</strong> every agent shows the branch it's on, so several sessions on one repository tell themselves apart. A git worktree goes by its repository's name ("shop-web ⎇ feature/login" instead of a generated folder name), and ⌥⌥ finds an agent by its branch too ("login: run the tests"). Settings › Appearance › Git branch turns it off.</li><li><strong>Runs on macOS 15 Sequoia</strong> and later. Liquid Glass and the on-device recaps still need macOS 26: on 15 the panels use a frosted blur, and Settings says why recaps are off.</li><li><strong>Grok Build:</strong> Grok runs Claude Code's hook, so with the hook on (Settings › Agents) its sessions show up as Grok, with Grok's logo, in any terminal, cmux and herdr. Its permission prompts can be answered from the Inbox. Until now they showed up labelled as Claude.</li><li><strong>Codex in a terminal:</strong> ⌥⌥ messages and Inbox answers reach the Codex CLI in iTerm, WezTerm, kitty, tmux and herdr. ⌥⌥ took Codex's empty prompt for unsent text, messages could stay in its input without being sent, and AgentDock couldn't type to Codex in iTerm at all.</li><li><strong>Codex in cmux:</strong> when Codex asks for approval, its dot turns amber. It used to stay blue.</li></ul>
-<p>Tested end to end with real agents: Claude Code in cmux, tmux, herdr, iTerm, WezTerm, kitty, Terminal, Ghostty, Warp, VS Code and the Claude app; Codex in cmux, tmux, herdr, iTerm, WezTerm and kitty; Grok Build in cmux, tmux, herdr, iTerm and Ghostty.</p>
-]]></description>
-            <enclosure url="https://github.com/tvidenov/AgentDock-releases/releases/download/v1.0.2/AgentDock-1.0.2.dmg" length="5245083" type="application/octet-stream" sparkle:edSignature="5CQ6hptyvfc322DeDev+uMd3Zo0/3n644RSTNg18qATFDbZWYBOUuSKE3FQwQ1datARabbpY9jZcg5IswGXBAA=="/>
         </item>
         <item>
             <title>1.0.1</title>
