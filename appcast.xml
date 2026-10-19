@@ -3,6 +3,18 @@
     <channel>
         <title>AgentDock</title>
         <item>
+            <title>1.2.0</title>
+            <pubDate>Mon, 19 Oct 2026 12:20:44 +0300</pubDate>
+            <link>https://github.com/tvidenov/AgentDock-releases/releases</link>
+            <sparkle:version>139</sparkle:version>
+            <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p><strong>AgentDock 1.2: agents that collide, a second opinion from the other vendor, and how long your agents wait for you.</strong></p>
+<ul><li><strong>Collision radar</strong>: when two agents change the same file within 20 minutes, both dots get a red ring, each agent's row names the file and the other agent, and you get a notification. Two agents busy in one checkout get a quieter note. AgentDock reads which files each agent changes from Claude Code's and Codex's own session files; worktrees count as separate checkouts.</li><li><strong>Second opinion</strong>: on a finished card in the Inbox, "Ask Codex to review" (for Claude Code's work) or "Ask Claude to review" (for the others), or press V. The other agent starts beside it in the same folder, in a new cmux workspace, tmux window, or iTerm, WezTerm, kitty or Terminal tab, with the task, the files that changed and the agent's summary, and is asked not to change anything. Elsewhere the command is copied for you to paste.</li><li><strong>Waiting on you</strong>: how long your agents waited for your answers, how often, the longest wait and how fast you usually answer. In Activity's new card, the medium Activity widget and the share card. It counts from this version on.</li><li><strong>Welcome back</strong>: after you've been away for a while, one panel lists who's waiting for you and for how long, what finished, and files two agents both changed. Click a row to open it. Settings › Inbox sets how long counts as away, or turns it off.</li><li><strong>Tokens widget</strong>: a second widget with today's tokens by hour, split between Claude and Codex, the last 7 days, and today's models.</li><li><strong>Answered in the agent itself</strong>: a question you answer in Claude's own dialog now leaves the pop-up and the Inbox within seconds, even when the command you allowed is still running. Finish notifications and the banner clear themselves once you've seen the agent or it carries on.</li><li>The pulsing dots of working agents now cost almost no CPU.</li></ul>
+]]></description>
+            <enclosure url="https://github.com/tvidenov/AgentDock-releases/releases/download/v1.2.0/AgentDock-1.2.0.dmg" length="7777592" type="application/octet-stream" sparkle:edSignature="4LxBRf9CAwC0VzcQ1YkJGdIGKtsU9juw7ytk1RXX20aUkXIs3Eglc2z4wv01Kt0gBrduh4CPsEpjrVMoPw56Dw=="/>
+        </item>
+        <item>
             <title>1.1.1</title>
             <pubDate>Fri, 16 Oct 2026 00:46:51 +0300</pubDate>
             <link>https://github.com/tvidenov/AgentDock-releases/releases</link>
@@ -25,18 +37,6 @@
 <ul><li><strong>Activity</strong> (menu › Activity…): every day of the last 12 months as a square, shaded by agent hours or turns, with your streak and totals. Click a day to replay it: each session is a lane, each turn a bar, with how many agents worked at once and when you were at your Mac. Press Replay to watch the day play out, or ← → to step through days.</li><li><strong>Leverage</strong>: how many hours of agent work you got for each hour at your Mac, and what your agents did while you were away. AgentDock starts noting when you're at your Mac with this version, so leverage starts today.</li><li><strong>Records and "that's like…"</strong>: your longest turn, the most agents at once, your busiest day and longest streak, and what the numbers compare to.</li><li><strong>Share</strong>: a card of your last 7 days, 30 days or 12 months, copied or saved as a 1080 × 1080 image. Totals only: no titles, repositories, branches or anything your agents wrote.</li><li><strong>Widgets</strong>: today's agent hours by the hour (small), the last 7 days and today's leverage (medium), or 20 weeks of squares with your records (large). Right-click the desktop › Edit Widgets › AgentDock. Clicking one opens Activity.</li><li><strong>The past fills in by itself</strong>: a minute after launch, AgentDock reads Claude Code's and Codex's own session files once for the year so far (Claude Code keeps 30 days of them). Everything stays on your Mac.</li><li>In History, a day's heading now has <strong>Replay day ↗</strong>, which opens that day in Activity.</li><li><strong>The free trial is now one per Mac</strong>, even after deleting AgentDock completely. While a Mac is on its trial, AgentDock sends our server a one-way hash of that Mac's hardware id and when its trial started, so a reinstall picks up the same trial. Nothing else is sent, and nothing at all once you've bought a license. The privacy page has the details.</li></ul>
 ]]></description>
             <enclosure url="https://github.com/tvidenov/AgentDock-releases/releases/download/v1.1.0/AgentDock-1.1.0.dmg" length="7056668" type="application/octet-stream" sparkle:edSignature="iqlFiG/9zg/8g22WU1Mbvp0IZLu5aUJoxuN8yu8hLWS5ePxmEQOTITPk5M8D1DFVcjChKDPo/6KMqwM03chzAQ=="/>
-        </item>
-        <item>
-            <title>1.0.7</title>
-            <pubDate>Mon, 12 Oct 2026 23:38:26 +0300</pubDate>
-            <link>https://github.com/tvidenov/AgentDock-releases/releases</link>
-            <sparkle:version>111</sparkle:version>
-            <sparkle:shortVersionString>1.0.7</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<p><strong>AgentDock 1.0.7: History, so nothing that finished slips by.</strong></p>
-<ul><li><strong>History</strong>: press Tab in the Inbox for every turn your agents finished in the last 30 days, by day, with how long it took and the agent's last words. Turns you haven't seen are marked: U shows only those, E marks one seen (⇧E all of them), ↩ goes to the agent and R replies while it's at its prompt. It fills in the past week, and anything that finished while AgentDock wasn't running, from Claude Code's and Codex's own session files, and it stays on your Mac.</li><li><strong>Mark all as seen</strong>: one click in the hover card, beside "Now", or ⇧E in the Inbox clears every finished agent at once, after time away say.</li><li><strong>The iPhone page</strong> shows History too, and can mark turns seen from your phone.</li></ul>
-]]></description>
-            <enclosure url="https://github.com/tvidenov/AgentDock-releases/releases/download/v1.0.7/AgentDock-1.0.7.dmg" length="6399215" type="application/octet-stream" sparkle:edSignature="J6zZrN1XcetsvBzkjqhlClDkjcVcSJhyadcaXspv8P7EcBxq5eY1RB8csfpjYWm6P9eEUBCAezXKaw7plVYwAw=="/>
         </item>
         <item>
             <title>1.0.1</title>
