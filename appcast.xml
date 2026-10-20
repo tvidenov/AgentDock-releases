@@ -3,6 +3,18 @@
     <channel>
         <title>AgentDock</title>
         <item>
+            <title>1.3.0</title>
+            <pubDate>Wed, 21 Oct 2026 00:23:45 +0300</pubDate>
+            <link>https://github.com/tvidenov/AgentDock-releases/releases</link>
+            <sparkle:version>168</sparkle:version>
+            <sparkle:shortVersionString>1.3.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p><strong>AgentDock 1.3: more agents than Claude Code and Codex, each in its own lane.</strong></p>
+<ul><li><strong>New agents, in preview</strong>: Antigravity CLI, Claude Cowork, Gemini CLI, GitHub Copilot CLI, OpenCode and Kilo Code. AgentDock reads each one's own session files while it runs, with nothing to install: its dot shows when it's working, waiting for you and done, and its finished turns go into History, Activity and Tokens. Turn them on in Settings › Agents › Show agents in preview. They're in preview until each is checked in a live session; OpenCode's and Antigravity's turns and tokens are already checked against real stores.</li><li><strong>Settings › Agents</strong>: every agent AgentDock knows, with its logo, whether it's installed on this Mac, and what AgentDock can do with it (see it, History and Tokens, answer it, type to it).</li><li><strong>Others in Tokens</strong>: tokens from agents other than Claude Code and Codex get their own teal series in the hover card and the Tokens widget. Cowork counts with Claude.</li><li><strong>Cursor</strong>: Cursor's agent, in the app and in its CLI, runs Claude Code's hooks, so its chats used to show as Claude Code. They now show as Cursor, and the app's leave the strip after three quiet hours (Cursor keeps running after a chat ends).</li><li><strong>Safer typing</strong>: AgentDock types replies and answers only into agents whose prompts and dialogs it has verified (Claude Code, Codex, Grok). Others, Gemini or Pi in cmux and herdr included, get "Open in …" instead, so a digit can't land in the middle of their answer.</li><li><strong>Fixed</strong>: a Codex or Claude Code agent in herdr was removed and added again every few seconds, which reset its timer.</li><li>Activity reads your year once more on first launch, to add the new agents' turns.</li></ul>
+]]></description>
+            <enclosure url="https://github.com/tvidenov/AgentDock-releases/releases/download/v1.3.0/AgentDock-1.3.0.dmg" length="9469876" type="application/octet-stream" sparkle:edSignature="Hgpwsu88mM6D+RZQfE96y5cUzE2V4zwbCMNuZYfYfsFlj/1VTvhb0c7XiXGXLZFfD0X1zeQ0USpJHn4LkdQMBg=="/>
+        </item>
+        <item>
             <title>1.2.0</title>
             <pubDate>Mon, 19 Oct 2026 12:20:44 +0300</pubDate>
             <link>https://github.com/tvidenov/AgentDock-releases/releases</link>
@@ -25,18 +37,6 @@
 <ul><li><strong>Day · Week · Month</strong>: below the year, switch from one day's replay to a whole week or month. Each day is a row of its 24 hours, shaded by agent work, under an average day; click a day to replay it. ← → move a day, a week or a month at a time, and the year's squares show which week or month you're looking at.</li><li><strong>Models</strong>: which models did the work, ranked by agent hours for the day, week or month, and your favorite of the year in the summary. AgentDock reads each turn's model from Claude Code's and Codex's session files, and fills in the past year once, in the background.</li><li><strong>Subagents</strong>: how many subagents your agents sent off, of which kinds (Explore, Plan, Codex's spawned agents and its approval reviewer…), and which session sent off the most. Just for interest: their time isn't added to your agent hours.</li><li><strong>Leverage, "That's like…"</strong> and the new cards follow the day, week or month on view. Over a week or month, leverage counts only the days AgentDock knew when you were at your Mac.</li><li>The year grid is now as wide as the window, hover tips appear right beside the square or the pointer, and cards side by side are the same height.</li><li><strong>Share</strong>: the toolbar has the standard share button, and the 30-day and 12-month cards explain their squares (a square a day; agent hours, less to more). The 7-day bars show their hours.</li></ul>
 ]]></description>
             <enclosure url="https://github.com/tvidenov/AgentDock-releases/releases/download/v1.1.1/AgentDock-1.1.1.dmg" length="8318259" type="application/octet-stream" sparkle:edSignature="49QCFJT7RAVuHzkjP8nkoTbjrNKIN1ivSo0/Ih64DZa9V9e9ACw913nWkr89pQOB6CxQe9084deWm5nvi/q8Aw=="/>
-        </item>
-        <item>
-            <title>1.1.0</title>
-            <pubDate>Thu, 15 Oct 2026 18:57:03 +0300</pubDate>
-            <link>https://github.com/tvidenov/AgentDock-releases/releases</link>
-            <sparkle:version>120</sparkle:version>
-            <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<p><strong>AgentDock 1.1: Activity, a year of your agents' work, and widgets for your desktop.</strong></p>
-<ul><li><strong>Activity</strong> (menu › Activity…): every day of the last 12 months as a square, shaded by agent hours or turns, with your streak and totals. Click a day to replay it: each session is a lane, each turn a bar, with how many agents worked at once and when you were at your Mac. Press Replay to watch the day play out, or ← → to step through days.</li><li><strong>Leverage</strong>: how many hours of agent work you got for each hour at your Mac, and what your agents did while you were away. AgentDock starts noting when you're at your Mac with this version, so leverage starts today.</li><li><strong>Records and "that's like…"</strong>: your longest turn, the most agents at once, your busiest day and longest streak, and what the numbers compare to.</li><li><strong>Share</strong>: a card of your last 7 days, 30 days or 12 months, copied or saved as a 1080 × 1080 image. Totals only: no titles, repositories, branches or anything your agents wrote.</li><li><strong>Widgets</strong>: today's agent hours by the hour (small), the last 7 days and today's leverage (medium), or 20 weeks of squares with your records (large). Right-click the desktop › Edit Widgets › AgentDock. Clicking one opens Activity.</li><li><strong>The past fills in by itself</strong>: a minute after launch, AgentDock reads Claude Code's and Codex's own session files once for the year so far (Claude Code keeps 30 days of them). Everything stays on your Mac.</li><li>In History, a day's heading now has <strong>Replay day ↗</strong>, which opens that day in Activity.</li><li><strong>The free trial is now one per Mac</strong>, even after deleting AgentDock completely. While a Mac is on its trial, AgentDock sends our server a one-way hash of that Mac's hardware id and when its trial started, so a reinstall picks up the same trial. Nothing else is sent, and nothing at all once you've bought a license. The privacy page has the details.</li></ul>
-]]></description>
-            <enclosure url="https://github.com/tvidenov/AgentDock-releases/releases/download/v1.1.0/AgentDock-1.1.0.dmg" length="7056668" type="application/octet-stream" sparkle:edSignature="iqlFiG/9zg/8g22WU1Mbvp0IZLu5aUJoxuN8yu8hLWS5ePxmEQOTITPk5M8D1DFVcjChKDPo/6KMqwM03chzAQ=="/>
         </item>
         <item>
             <title>1.0.1</title>
