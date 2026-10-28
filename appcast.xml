@@ -3,6 +3,18 @@
     <channel>
         <title>AgentDock</title>
         <item>
+            <title>1.5.0</title>
+            <pubDate>Wed, 28 Oct 2026 16:51:06 +0200</pubDate>
+            <link>https://github.com/tvidenov/AgentDock-releases/releases</link>
+            <sparkle:version>200</sparkle:version>
+            <sparkle:shortVersionString>1.5.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p><strong>AgentDock 1.5: see the helpers behind your agents.</strong></p>
+<ul><li><strong>Live subagent trees</strong>: the hover card shows running Claude Code and Codex helpers under their parent agent, with nested tasks, labels, elapsed time and status dots. Expand or collapse the tree; larger groups show six rows and a count of the rest. Turn it off in Settings &gt; Appearance &gt; Hover card &gt; Subagents.</li><li><strong>More reliable Codex detection</strong>: sessions owned by Codex's shared app server are detected correctly, and long-running turns stay visible even when their transcript grows beyond the recent-file tail.</li><li><strong>Steadier agent list</strong>: stale cmux hook events no longer create phantom agents that briefly appear and disappear.</li><li><strong>Hover cards that fit</strong>: long token-cost notes wrap within the card without clipping its bottom edge.</li><li><strong>Clearer provider icons</strong>: Codex now uses Font Awesome's OpenAI mark, with a matching Claude logo across the app and website previews.</li></ul>
+]]></description>
+            <enclosure url="https://github.com/tvidenov/AgentDock-releases/releases/download/v1.5.0/AgentDock-1.5.0.dmg" length="9206426" type="application/octet-stream" sparkle:edSignature="vi+v66O6cL6CkGdXoqA++ZYNRHz+RrrvB2vxXQapGGXoCAkBjazCoh413QvTXoCmNLvOuTgaG5TFfrAT7MiPCg=="/>
+        </item>
+        <item>
             <title>1.4.0</title>
             <pubDate>Thu, 22 Oct 2026 17:52:38 +0300</pubDate>
             <link>https://github.com/tvidenov/AgentDock-releases/releases</link>
@@ -25,18 +37,6 @@
 <ul><li><strong>New agents, in preview</strong>: Antigravity CLI, Claude Cowork, Gemini CLI, GitHub Copilot CLI, OpenCode and Kilo Code. AgentDock reads each one's own session files while it runs, with nothing to install: its dot shows when it's working, waiting for you and done, and its finished turns go into History, Activity and Tokens. Turn them on in Settings › Agents › Show agents in preview. They're in preview until each is checked in a live session; OpenCode's and Antigravity's turns and tokens are already checked against real stores.</li><li><strong>Settings › Agents</strong>: every agent AgentDock knows, with its logo, whether it's installed on this Mac, and what AgentDock can do with it (see it, History and Tokens, answer it, type to it).</li><li><strong>Others in Tokens</strong>: tokens from agents other than Claude Code and Codex get their own teal series in the hover card and the Tokens widget. Cowork counts with Claude.</li><li><strong>Cursor</strong>: Cursor's agent, in the app and in its CLI, runs Claude Code's hooks, so its chats used to show as Claude Code. They now show as Cursor, and the app's leave the strip after three quiet hours (Cursor keeps running after a chat ends).</li><li><strong>Safer typing</strong>: AgentDock types replies and answers only into agents whose prompts and dialogs it has verified (Claude Code, Codex, Grok). Others, Gemini or Pi in cmux and herdr included, get "Open in …" instead, so a digit can't land in the middle of their answer.</li><li><strong>Fixed</strong>: a Codex or Claude Code agent in herdr was removed and added again every few seconds, which reset its timer.</li><li>Activity reads your year once more on first launch, to add the new agents' turns.</li></ul>
 ]]></description>
             <enclosure url="https://github.com/tvidenov/AgentDock-releases/releases/download/v1.3.0/AgentDock-1.3.0.dmg" length="9469876" type="application/octet-stream" sparkle:edSignature="Hgpwsu88mM6D+RZQfE96y5cUzE2V4zwbCMNuZYfYfsFlj/1VTvhb0c7XiXGXLZFfD0X1zeQ0USpJHn4LkdQMBg=="/>
-        </item>
-        <item>
-            <title>1.2.0</title>
-            <pubDate>Mon, 19 Oct 2026 12:20:44 +0300</pubDate>
-            <link>https://github.com/tvidenov/AgentDock-releases/releases</link>
-            <sparkle:version>139</sparkle:version>
-            <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<p><strong>AgentDock 1.2: agents that collide, a second opinion from the other vendor, and how long your agents wait for you.</strong></p>
-<ul><li><strong>Collision radar</strong>: when two agents change the same file within 20 minutes, both dots get a red ring, each agent's row names the file and the other agent, and you get a notification. Two agents busy in one checkout get a quieter note. AgentDock reads which files each agent changes from Claude Code's and Codex's own session files; worktrees count as separate checkouts.</li><li><strong>Second opinion</strong>: on a finished card in the Inbox, "Ask Codex to review" (for Claude Code's work) or "Ask Claude to review" (for the others), or press V. The other agent starts beside it in the same folder, in a new cmux workspace, tmux window, or iTerm, WezTerm, kitty or Terminal tab, with the task, the files that changed and the agent's summary, and is asked not to change anything. Elsewhere the command is copied for you to paste.</li><li><strong>Waiting on you</strong>: how long your agents waited for your answers, how often, the longest wait and how fast you usually answer. In Activity's new card, the medium Activity widget and the share card. It counts from this version on.</li><li><strong>Welcome back</strong>: after you've been away for a while, one panel lists who's waiting for you and for how long, what finished, and files two agents both changed. Click a row to open it. Settings › Inbox sets how long counts as away, or turns it off.</li><li><strong>Tokens widget</strong>: a second widget with today's tokens by hour, split between Claude and Codex, the last 7 days, and today's models.</li><li><strong>Answered in the agent itself</strong>: a question you answer in Claude's own dialog now leaves the pop-up and the Inbox within seconds, even when the command you allowed is still running. Finish notifications and the banner clear themselves once you've seen the agent or it carries on.</li><li>The pulsing dots of working agents now cost almost no CPU.</li></ul>
-]]></description>
-            <enclosure url="https://github.com/tvidenov/AgentDock-releases/releases/download/v1.2.0/AgentDock-1.2.0.dmg" length="7777592" type="application/octet-stream" sparkle:edSignature="4LxBRf9CAwC0VzcQ1YkJGdIGKtsU9juw7ytk1RXX20aUkXIs3Eglc2z4wv01Kt0gBrduh4CPsEpjrVMoPw56Dw=="/>
         </item>
         <item>
             <title>1.0.1</title>
