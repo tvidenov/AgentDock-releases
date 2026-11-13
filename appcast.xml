@@ -3,6 +3,18 @@
     <channel>
         <title>AgentDock</title>
         <item>
+            <title>1.5.3</title>
+            <pubDate>Fri, 13 Nov 2026 15:54:42 +0200</pubDate>
+            <link>https://github.com/tvidenov/AgentDock-releases/releases</link>
+            <sparkle:version>218</sparkle:version>
+            <sparkle:shortVersionString>1.5.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p><strong>AgentDock 1.5.3: one fix.</strong></p>
+<ul><li><strong>Claude Code agent teams in cmux</strong>: a team lead no longer flashes "needs you" each time it ends a turn while its teammates are still working. cmux reports such a lead as "Waiting" (on its background work), which AgentDock read as waiting on you, so a card and the question pop-up appeared for a few seconds and went again.</li></ul>
+]]></description>
+            <enclosure url="https://github.com/tvidenov/AgentDock-releases/releases/download/v1.5.3/AgentDock-1.5.3.dmg" length="9572334" type="application/octet-stream" sparkle:edSignature="dfmTh2T7eeSQxiO0s1tDvlArdPy+sciN7XiCBDyVow3UjiI5ndqwPGNYfpLQ3AAE7+cQJJHNf2U3h09Vp+gfBA=="/>
+        </item>
+        <item>
             <title>1.5.2</title>
             <pubDate>Fri, 13 Nov 2026 15:06:03 +0200</pubDate>
             <link>https://github.com/tvidenov/AgentDock-releases/releases</link>
@@ -25,18 +37,6 @@
 <ul><li><strong>Messages that start with a dash</strong>: a reply or ⌥⌥ message beginning with "-" (a list item, say) is typed as written in tmux, WezTerm and kitty. Before, it failed or was silently dropped.</li><li><strong>Finishes announced once</strong>: a finished agent is no longer announced a second time after cmux refreshes, and Claude's one-minute reminder no longer turns a finished agent's green dot grey.</li><li><strong>Codex questions</strong>: a question answered from the Inbox doesn't come back a few seconds later, and a Codex with a question open leads the strip and never folds into "quiet".</li><li><strong>Interrupted Claude sessions</strong>: a session you stop with Esc shows as idle instead of working until its next prompt.</li><li><strong>Finish banner</strong>: a reply that can't be sent stays in the banner with the reason, a newer finish doesn't replace one you're typing in, and turns over an hour read "3 h 5 min".</li><li><strong>Question pop-up</strong>: a card cleared in the Inbox no longer comes back as an empty pop-up.</li><li><strong>⌥⌥</strong>: Esc while a message is being typed no longer leaves it half-sent in the agent's prompt.</li><li><strong>iPhone</strong>: "Mark as seen" acts only on the card you tapped, a suggested step no longer replaces the Mac's clipboard, and the relay address applies when you finish typing it.</li><li><strong>History and Activity</strong>: long Goose turns and turns that ended with their session are recorded, older days keep their Claude work when the year is read again, waits still open when AgentDock quits are counted, and subagents are counted every day, not only when the Activity window is opened.</li><li><strong>Prices</strong>: Fable 5.2, Mythos, GPT-6.1 Terra, the GPT-5 pro models and Gemini 4 have their own API prices, Sonnet 5.5's cache price is corrected, and Google's announced price changes apply from their dates. A different tier of a known model is never priced from its base model.</li><li><strong>cmux set-up</strong>: AgentDock now asks for cmux's Automation mode. Password mode still connects, but cmux then stops resuming Claude and Codex sessions in relaunched tabs.</li><li><strong>Reliability</strong>: a license check that gets an unreadable answer never removes a license, a disconnected MCP client can't end AgentDock, and Cline and Roo Code follow "Show agents in preview".</li></ul>
 ]]></description>
             <enclosure url="https://github.com/tvidenov/AgentDock-releases/releases/download/v1.5.1/AgentDock-1.5.1.dmg" length="9572167" type="application/octet-stream" sparkle:edSignature="mWRt/SIA/GwR/yMYB6GeS7iljkSJ9OLef72y27mx24tvO9Lh8W0BMUOv9tw6dYh7Xgml4ZxXZyoopqBvl4/sCA=="/>
-        </item>
-        <item>
-            <title>1.5.0</title>
-            <pubDate>Wed, 28 Oct 2026 16:51:06 +0200</pubDate>
-            <link>https://github.com/tvidenov/AgentDock-releases/releases</link>
-            <sparkle:version>200</sparkle:version>
-            <sparkle:shortVersionString>1.5.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<p><strong>AgentDock 1.5: see the helpers behind your agents.</strong></p>
-<ul><li><strong>Live subagent trees</strong>: the hover card shows running Claude Code and Codex helpers under their parent agent, with nested tasks, labels, elapsed time and status dots. Expand or collapse the tree; larger groups show six rows and a count of the rest. Turn it off in Settings &gt; Appearance &gt; Hover card &gt; Subagents.</li><li><strong>More reliable Codex detection</strong>: sessions owned by Codex's shared app server are detected correctly, and long-running turns stay visible even when their transcript grows beyond the recent-file tail.</li><li><strong>Steadier agent list</strong>: stale cmux hook events no longer create phantom agents that briefly appear and disappear.</li><li><strong>Hover cards that fit</strong>: long token-cost notes wrap within the card without clipping its bottom edge.</li><li><strong>Clearer provider icons</strong>: Codex now uses Font Awesome's OpenAI mark, with a matching Claude logo across the app and website previews.</li></ul>
-]]></description>
-            <enclosure url="https://github.com/tvidenov/AgentDock-releases/releases/download/v1.5.0/AgentDock-1.5.0.dmg" length="9206426" type="application/octet-stream" sparkle:edSignature="vi+v66O6cL6CkGdXoqA++ZYNRHz+RrrvB2vxXQapGGXoCAkBjazCoh413QvTXoCmNLvOuTgaG5TFfrAT7MiPCg=="/>
         </item>
         <item>
             <title>1.0.1</title>
