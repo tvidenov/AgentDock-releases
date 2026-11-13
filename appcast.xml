@@ -3,6 +3,18 @@
     <channel>
         <title>AgentDock</title>
         <item>
+            <title>1.5.4</title>
+            <pubDate>Fri, 13 Nov 2026 16:36:46 +0200</pubDate>
+            <link>https://github.com/tvidenov/AgentDock-releases/releases</link>
+            <sparkle:version>220</sparkle:version>
+            <sparkle:shortVersionString>1.5.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<p><strong>AgentDock 1.5.4: questions with previews.</strong></p>
+<ul><li><strong>Claude's questions with a preview</strong>: when Claude Code asks a question and shows a preview beside the options, the Inbox and the question pop-up now show the question and its options, and picking one answers it. Before, the card said "Waiting for you in a form AgentDock can't read yet". The preview itself stays in the terminal.</li></ul>
+]]></description>
+            <enclosure url="https://github.com/tvidenov/AgentDock-releases/releases/download/v1.5.4/AgentDock-1.5.4.dmg" length="9581939" type="application/octet-stream" sparkle:edSignature="7nfgLWv2RFmLjoBZ+aYGac41ykYZRtINjMdqXZQ+FK1wCunNB2LmfxYmTvLLz3YPoMlsHvqfk67MvEUCldjPDw=="/>
+        </item>
+        <item>
             <title>1.5.3</title>
             <pubDate>Fri, 13 Nov 2026 15:54:42 +0200</pubDate>
             <link>https://github.com/tvidenov/AgentDock-releases/releases</link>
@@ -25,18 +37,6 @@
 <ul><li><strong>Claude Code agent teams</strong>: a team lead waiting at an empty prompt no longer shows "Waiting for you in a form AgentDock can't read yet", and ⌥⌥ messages and Inbox replies to it are no longer refused as unsent text. The list of teammates under Claude's status line hid its empty prompt from AgentDock.</li><li><strong>Menu bar menu</strong>: an agent with a very long title no longer stretches the menu across the screen. Titles are cut at a word, in the Dock menu too.</li></ul>
 ]]></description>
             <enclosure url="https://github.com/tvidenov/AgentDock-releases/releases/download/v1.5.2/AgentDock-1.5.2.dmg" length="9572248" type="application/octet-stream" sparkle:edSignature="IgIojMZ7PFTM6qhrrARRIHUP4wC2FNHLh8XdCOioX3Tc4WsX+ffntS9a0BVh9ybs8nnyktB5TZrx0XNe5nFaCA=="/>
-        </item>
-        <item>
-            <title>1.5.1</title>
-            <pubDate>Wed, 11 Nov 2026 23:32:41 +0200</pubDate>
-            <link>https://github.com/tvidenov/AgentDock-releases/releases</link>
-            <sparkle:version>213</sparkle:version>
-            <sparkle:shortVersionString>1.5.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<p><strong>AgentDock 1.5.1: fixes across the Inbox, finishes, Activity and prices.</strong></p>
-<ul><li><strong>Messages that start with a dash</strong>: a reply or ⌥⌥ message beginning with "-" (a list item, say) is typed as written in tmux, WezTerm and kitty. Before, it failed or was silently dropped.</li><li><strong>Finishes announced once</strong>: a finished agent is no longer announced a second time after cmux refreshes, and Claude's one-minute reminder no longer turns a finished agent's green dot grey.</li><li><strong>Codex questions</strong>: a question answered from the Inbox doesn't come back a few seconds later, and a Codex with a question open leads the strip and never folds into "quiet".</li><li><strong>Interrupted Claude sessions</strong>: a session you stop with Esc shows as idle instead of working until its next prompt.</li><li><strong>Finish banner</strong>: a reply that can't be sent stays in the banner with the reason, a newer finish doesn't replace one you're typing in, and turns over an hour read "3 h 5 min".</li><li><strong>Question pop-up</strong>: a card cleared in the Inbox no longer comes back as an empty pop-up.</li><li><strong>⌥⌥</strong>: Esc while a message is being typed no longer leaves it half-sent in the agent's prompt.</li><li><strong>iPhone</strong>: "Mark as seen" acts only on the card you tapped, a suggested step no longer replaces the Mac's clipboard, and the relay address applies when you finish typing it.</li><li><strong>History and Activity</strong>: long Goose turns and turns that ended with their session are recorded, older days keep their Claude work when the year is read again, waits still open when AgentDock quits are counted, and subagents are counted every day, not only when the Activity window is opened.</li><li><strong>Prices</strong>: Fable 5.2, Mythos, GPT-6.1 Terra, the GPT-5 pro models and Gemini 4 have their own API prices, Sonnet 5.5's cache price is corrected, and Google's announced price changes apply from their dates. A different tier of a known model is never priced from its base model.</li><li><strong>cmux set-up</strong>: AgentDock now asks for cmux's Automation mode. Password mode still connects, but cmux then stops resuming Claude and Codex sessions in relaunched tabs.</li><li><strong>Reliability</strong>: a license check that gets an unreadable answer never removes a license, a disconnected MCP client can't end AgentDock, and Cline and Roo Code follow "Show agents in preview".</li></ul>
-]]></description>
-            <enclosure url="https://github.com/tvidenov/AgentDock-releases/releases/download/v1.5.1/AgentDock-1.5.1.dmg" length="9572167" type="application/octet-stream" sparkle:edSignature="mWRt/SIA/GwR/yMYB6GeS7iljkSJ9OLef72y27mx24tvO9Lh8W0BMUOv9tw6dYh7Xgml4ZxXZyoopqBvl4/sCA=="/>
         </item>
         <item>
             <title>1.0.1</title>
